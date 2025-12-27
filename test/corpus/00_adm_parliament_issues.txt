@@ -1911,12 +1911,8 @@ treason_act = {
               (number))))
         (comment)
         (statement
-          (simple_value
-            (identifier)))
-        (statement
-          (condition_statement))
-        (statement
-          (condition_statement
+          (assignment
+            (identifier)
             (map
               (statement
                 (assignment
@@ -2194,10 +2190,6 @@ treason_act = {
                   (identifier)
                   (map
                     (statement
-                      (condition_statement))
-                    (statement
-                      (condition_statement))
-                    (statement
                       (condition_statement
                         (map
                           (statement
@@ -2230,10 +2222,6 @@ treason_act = {
                         (identifier)
                         (map
                           (statement
-                            (condition_statement))
-                          (statement
-                            (condition_statement))
-                          (statement
                             (condition_statement
                               (map
                                 (statement
@@ -2252,16 +2240,8 @@ treason_act = {
                               (simple_value
                                 (identifier))))))))))
               (statement
-                (condition_statement))
-              (statement
-                (condition_statement))
-              (statement
                 (condition_statement
                   (map
-                    (statement
-                      (condition_statement))
-                    (statement
-                      (condition_statement))
                     (statement
                       (condition_statement
                         (map
@@ -2287,16 +2267,8 @@ treason_act = {
                               (simple_value
                                 (identifier))))))))))
               (statement
-                (condition_statement))
-              (statement
-                (condition_statement))
-              (statement
                 (condition_statement
                   (map
-                    (statement
-                      (condition_statement))
-                    (statement
-                      (condition_statement))
                     (statement
                       (condition_statement
                         (map
@@ -2317,10 +2289,6 @@ treason_act = {
                             (assignment
                               (identifier)
                               (map
-                                (statement
-                                  (condition_statement))
-                                (statement
-                                  (condition_statement))
                                 (statement
                                   (condition_statement
                                     (map
@@ -2818,16 +2786,8 @@ treason_act = {
             (identifier)
             (map
               (statement
-                (condition_statement))
-              (statement
-                (condition_statement))
-              (statement
                 (condition_statement
                   (map
-                    (statement
-                      (condition_statement))
-                    (statement
-                      (condition_statement))
                     (statement
                       (condition_statement
                         (map
@@ -2847,10 +2807,6 @@ treason_act = {
                       (assignment
                         (identifier)
                         (map
-                          (statement
-                            (condition_statement))
-                          (statement
-                            (condition_statement))
                           (statement
                             (condition_statement
                               (map
@@ -2874,16 +2830,8 @@ treason_act = {
             (identifier)
             (map
               (statement
-                (condition_statement))
-              (statement
-                (condition_statement))
-              (statement
                 (condition_statement
                   (map
-                    (statement
-                      (condition_statement))
-                    (statement
-                      (condition_statement))
                     (statement
                       (condition_statement
                         (map
@@ -2917,10 +2865,6 @@ treason_act = {
                               (identifier)
                               (map
                                 (statement
-                                  (condition_statement))
-                                (statement
-                                  (condition_statement))
-                                (statement
                                   (condition_statement
                                     (map
                                       (statement
@@ -2941,10 +2885,6 @@ treason_act = {
                       (assignment
                         (identifier)
                         (map
-                          (statement
-                            (condition_statement))
-                          (statement
-                            (condition_statement))
                           (statement
                             (condition_statement
                               (map
@@ -4503,10 +4443,6 @@ treason_act = {
                   (identifier)
                   (map
                     (statement
-                      (condition_statement))
-                    (statement
-                      (condition_statement))
-                    (statement
                       (condition_statement
                         (map
                           (statement
@@ -4524,16 +4460,8 @@ treason_act = {
             (identifier)
             (map
               (statement
-                (condition_statement))
-              (statement
-                (condition_statement))
-              (statement
                 (condition_statement
                   (map
-                    (statement
-                      (condition_statement))
-                    (statement
-                      (condition_statement))
                     (statement
                       (condition_statement
                         (map
@@ -4555,16 +4483,8 @@ treason_act = {
                         (simple_value
                           (identifier)))))))
               (statement
-                (condition_statement))
-              (statement
-                (condition_statement))
-              (statement
                 (condition_statement
                   (map
-                    (statement
-                      (condition_statement))
-                    (statement
-                      (condition_statement))
                     (statement
                       (condition_statement
                         (map
@@ -4581,10 +4501,6 @@ treason_act = {
                       (assignment
                         (identifier)
                         (map
-                          (statement
-                            (condition_statement))
-                          (statement
-                            (condition_statement))
                           (statement
                             (condition_statement
                               (map
@@ -5388,12 +5304,8 @@ treason_act = {
                     (boolean))))
               (comment)
               (statement
-                (simple_value
-                  (identifier)))
-              (statement
-                (condition_statement))
-              (statement
-                (condition_statement
+                (assignment
+                  (identifier)
                   (map
                     (statement
                       (assignment
@@ -5441,10 +5353,6 @@ treason_act = {
                   (identifier)
                   (map
                     (statement
-                      (condition_statement))
-                    (statement
-                      (condition_statement))
-                    (statement
                       (condition_statement
                         (map
                           (statement
@@ -5485,10 +5393,6 @@ treason_act = {
                         (identifier)
                         (map
                           (statement
-                            (condition_statement))
-                          (statement
-                            (condition_statement))
-                          (statement
                             (condition_statement
                               (map
                                 (statement
@@ -5507,16 +5411,8 @@ treason_act = {
                               (simple_value
                                 (identifier))))))))))
               (statement
-                (condition_statement))
-              (statement
-                (condition_statement))
-              (statement
                 (condition_statement
                   (map
-                    (statement
-                      (condition_statement))
-                    (statement
-                      (condition_statement))
                     (statement
                       (condition_statement
                         (map
@@ -5542,16 +5438,8 @@ treason_act = {
                               (simple_value
                                 (identifier))))))))))
               (statement
-                (condition_statement))
-              (statement
-                (condition_statement))
-              (statement
                 (condition_statement
                   (map
-                    (statement
-                      (condition_statement))
-                    (statement
-                      (condition_statement))
                     (statement
                       (condition_statement
                         (map
@@ -5572,10 +5460,6 @@ treason_act = {
                             (assignment
                               (identifier)
                               (map
-                                (statement
-                                  (condition_statement))
-                                (statement
-                                  (condition_statement))
                                 (statement
                                   (condition_statement
                                     (map
@@ -5880,10 +5764,6 @@ treason_act = {
                   (identifier)
                   (map
                     (statement
-                      (condition_statement))
-                    (statement
-                      (condition_statement))
-                    (statement
                       (condition_statement
                         (map
                           (statement
@@ -5909,10 +5789,6 @@ treason_act = {
                         (identifier)
                         (map
                           (statement
-                            (condition_statement))
-                          (statement
-                            (condition_statement))
-                          (statement
                             (condition_statement
                               (map
                                 (statement
@@ -5931,16 +5807,8 @@ treason_act = {
                               (simple_value
                                 (identifier))))))))))
               (statement
-                (condition_statement))
-              (statement
-                (condition_statement))
-              (statement
                 (condition_statement
                   (map
-                    (statement
-                      (condition_statement))
-                    (statement
-                      (condition_statement))
                     (statement
                       (condition_statement
                         (map
@@ -5966,16 +5834,8 @@ treason_act = {
                               (simple_value
                                 (identifier))))))))))
               (statement
-                (condition_statement))
-              (statement
-                (condition_statement))
-              (statement
                 (condition_statement
                   (map
-                    (statement
-                      (condition_statement))
-                    (statement
-                      (condition_statement))
                     (statement
                       (condition_statement
                         (map
@@ -5996,10 +5856,6 @@ treason_act = {
                             (assignment
                               (identifier)
                               (map
-                                (statement
-                                  (condition_statement))
-                                (statement
-                                  (condition_statement))
                                 (statement
                                   (condition_statement
                                     (map
@@ -6067,10 +5923,6 @@ treason_act = {
                   (identifier)
                   (map
                     (statement
-                      (condition_statement))
-                    (statement
-                      (condition_statement))
-                    (statement
                       (condition_statement
                         (map
                           (statement
@@ -6096,10 +5948,6 @@ treason_act = {
                         (identifier)
                         (map
                           (statement
-                            (condition_statement))
-                          (statement
-                            (condition_statement))
-                          (statement
                             (condition_statement
                               (map
                                 (statement
@@ -6118,16 +5966,8 @@ treason_act = {
                               (simple_value
                                 (identifier))))))))))
               (statement
-                (condition_statement))
-              (statement
-                (condition_statement))
-              (statement
                 (condition_statement
                   (map
-                    (statement
-                      (condition_statement))
-                    (statement
-                      (condition_statement))
                     (statement
                       (condition_statement
                         (map
@@ -6153,16 +5993,8 @@ treason_act = {
                               (simple_value
                                 (identifier))))))))))
               (statement
-                (condition_statement))
-              (statement
-                (condition_statement))
-              (statement
                 (condition_statement
                   (map
-                    (statement
-                      (condition_statement))
-                    (statement
-                      (condition_statement))
                     (statement
                       (condition_statement
                         (map
@@ -6183,10 +6015,6 @@ treason_act = {
                             (assignment
                               (identifier)
                               (map
-                                (statement
-                                  (condition_statement))
-                                (statement
-                                  (condition_statement))
                                 (statement
                                   (condition_statement
                                     (map

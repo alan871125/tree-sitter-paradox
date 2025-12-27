@@ -1,0 +1,31 @@
+
+
+================================================================================
+Comments
+================================================================================
+# 11223abcde
+@comment_followed = 80 # some comment (12345abcde)
+# some comments at "# foo #".
+@cde = 3
+--------------------------------------------------------------------------------
+(source_file
+    (comment)
+    (statement
+        (assignment
+            (identifier)
+            (simple_value
+                (number)
+            )
+        )
+    )
+    (comment)
+    (comment)
+    (statement
+        (assignment
+            (identifier)
+            (simple_value
+                (number)
+            )
+        )
+    )
+)

@@ -2956,10 +2956,6 @@ grand_captain = {
             (identifier)
             (map
               (statement
-                (condition_statement))
-              (statement
-                (condition_statement))
-              (statement
                 (condition_statement
                   (map
                     (statement
@@ -2984,10 +2980,6 @@ grand_captain = {
           (assignment
             (identifier)
             (map
-              (statement
-                (condition_statement))
-              (statement
-                (condition_statement))
               (statement
                 (condition_statement
                   (map
@@ -3022,10 +3014,6 @@ grand_captain = {
             (identifier)
             (map
               (statement
-                (condition_statement))
-              (statement
-                (condition_statement))
-              (statement
                 (condition_statement
                   (map
                     (statement
@@ -3051,10 +3039,6 @@ grand_captain = {
             (identifier)
             (map
               (statement
-                (condition_statement))
-              (statement
-                (condition_statement))
-              (statement
                 (condition_statement
                   (map
                     (statement
@@ -3079,10 +3063,6 @@ grand_captain = {
           (assignment
             (identifier)
             (map
-              (statement
-                (condition_statement))
-              (statement
-                (condition_statement))
               (statement
                 (condition_statement
                   (map
@@ -3106,21 +3086,14 @@ grand_captain = {
                           (number))))))))))
         (comment)
         (statement
-          (simple_value
-            (identifier)))
-        (statement
-          (condition_statement))
-        (statement
-          (simple_value
-            (number)))
+          (assignment
+            (identifier)
+            (simple_value
+              (number))))
         (statement
           (assignment
             (identifier)
             (map
-              (statement
-                (condition_statement))
-              (statement
-                (condition_statement))
               (statement
                 (condition_statement
                   (map
@@ -3147,9 +3120,30 @@ grand_captain = {
             (identifier)
             (map
               (statement
-                (condition_statement))
+                (condition_statement
+                  (map
+                    (statement
+                      (assignment
+                        (identifier)
+                        (map
+                          (statement
+                            (assignment
+                              (identifier)
+                              (simple_value
+                                (identifier))))))))))
               (statement
-                (condition_statement))
+                (assignment
+                  (identifier)
+                  (map
+                    (statement
+                      (assignment
+                        (identifier)
+                        (simple_value
+                          (number))))))))))
+        (statement
+          (assignment
+            (identifier)
+            (map
               (statement
                 (condition_statement
                   (map
@@ -3176,10 +3170,6 @@ grand_captain = {
             (identifier)
             (map
               (statement
-                (condition_statement))
-              (statement
-                (condition_statement))
-              (statement
                 (condition_statement
                   (map
                     (statement
@@ -3204,39 +3194,6 @@ grand_captain = {
           (assignment
             (identifier)
             (map
-              (statement
-                (condition_statement))
-              (statement
-                (condition_statement))
-              (statement
-                (condition_statement
-                  (map
-                    (statement
-                      (assignment
-                        (identifier)
-                        (map
-                          (statement
-                            (assignment
-                              (identifier)
-                              (simple_value
-                                (identifier))))))))))
-              (statement
-                (assignment
-                  (identifier)
-                  (map
-                    (statement
-                      (assignment
-                        (identifier)
-                        (simple_value
-                          (number))))))))))
-        (statement
-          (assignment
-            (identifier)
-            (map
-              (statement
-                (condition_statement))
-              (statement
-                (condition_statement))
               (statement
                 (condition_statement
                   (map
@@ -3263,9 +3220,30 @@ grand_captain = {
             (identifier)
             (map
               (statement
-                (condition_statement))
+                (condition_statement
+                  (map
+                    (statement
+                      (assignment
+                        (identifier)
+                        (map
+                          (statement
+                            (assignment
+                              (identifier)
+                              (simple_value
+                                (identifier))))))))))
               (statement
-                (condition_statement))
+                (assignment
+                  (identifier)
+                  (map
+                    (statement
+                      (assignment
+                        (identifier)
+                        (simple_value
+                          (number))))))))))
+        (statement
+          (assignment
+            (identifier)
+            (map
               (statement
                 (condition_statement
                   (map
@@ -3292,10 +3270,6 @@ grand_captain = {
             (identifier)
             (map
               (statement
-                (condition_statement))
-              (statement
-                (condition_statement))
-              (statement
                 (condition_statement
                   (map
                     (statement
@@ -3321,10 +3295,6 @@ grand_captain = {
             (identifier)
             (map
               (statement
-                (condition_statement))
-              (statement
-                (condition_statement))
-              (statement
                 (condition_statement
                   (map
                     (statement
@@ -3345,15 +3315,13 @@ grand_captain = {
                         (identifier)
                         (simple_value
                           (number))))))))))
+        (comment)
+        (comment)
         (statement
           (assignment
             (identifier)
             (map
               (statement
-                (condition_statement))
-              (statement
-                (condition_statement))
-              (statement
                 (condition_statement
                   (map
                     (statement
@@ -3377,47 +3345,8 @@ grand_captain = {
         (comment)
         (comment)
         (statement
-          (simple_value
-            (identifier)))
-        (statement
-          (condition_statement))
-        (statement
-          (condition_statement
-            (map
-              (statement
-                (condition_statement))
-              (statement
-                (condition_statement))
-              (statement
-                (condition_statement
-                  (map
-                    (statement
-                      (assignment
-                        (identifier)
-                        (map
-                          (statement
-                            (assignment
-                              (identifier)
-                              (simple_value
-                                (identifier))))))))))
-              (statement
-                (assignment
-                  (identifier)
-                  (map
-                    (statement
-                      (assignment
-                        (identifier)
-                        (simple_value
-                          (number))))))))))
-        (comment)
-        (comment)
-        (statement
-          (simple_value
-            (identifier)))
-        (statement
-          (condition_statement))
-        (statement
-          (condition_statement
+          (assignment
+            (identifier)
             (map
               (statement
                 (assignment
@@ -3435,12 +3364,8 @@ grand_captain = {
                     (number))))))))))
   (comment)
   (statement
-    (simple_value
-      (identifier)))
-  (statement
-    (condition_statement))
-  (statement
-    (condition_statement
+    (assignment
+      (identifier)
       (map
         (statement
           (assignment
@@ -3451,10 +3376,6 @@ grand_captain = {
           (assignment
             (identifier)
             (map
-              (statement
-                (condition_statement))
-              (statement
-                (condition_statement))
               (statement
                 (condition_statement
                   (map
@@ -3480,10 +3401,6 @@ grand_captain = {
           (assignment
             (identifier)
             (map
-              (statement
-                (condition_statement))
-              (statement
-                (condition_statement))
               (statement
                 (condition_statement
                   (map
@@ -3518,10 +3435,6 @@ grand_captain = {
             (identifier)
             (map
               (statement
-                (condition_statement))
-              (statement
-                (condition_statement))
-              (statement
                 (condition_statement
                   (map
                     (statement
@@ -3547,10 +3460,6 @@ grand_captain = {
             (identifier)
             (map
               (statement
-                (condition_statement))
-              (statement
-                (condition_statement))
-              (statement
                 (condition_statement
                   (map
                     (statement
@@ -3575,10 +3484,6 @@ grand_captain = {
           (assignment
             (identifier)
             (map
-              (statement
-                (condition_statement))
-              (statement
-                (condition_statement))
               (statement
                 (condition_statement
                   (map
@@ -3602,21 +3507,14 @@ grand_captain = {
                           (number))))))))))
         (comment)
         (statement
-          (simple_value
-            (identifier)))
-        (statement
-          (condition_statement))
-        (statement
-          (simple_value
-            (number)))
+          (assignment
+            (identifier)
+            (simple_value
+              (number))))
         (statement
           (assignment
             (identifier)
             (map
-              (statement
-                (condition_statement))
-              (statement
-                (condition_statement))
               (statement
                 (condition_statement
                   (map
@@ -3643,9 +3541,30 @@ grand_captain = {
             (identifier)
             (map
               (statement
-                (condition_statement))
+                (condition_statement
+                  (map
+                    (statement
+                      (assignment
+                        (identifier)
+                        (map
+                          (statement
+                            (assignment
+                              (identifier)
+                              (simple_value
+                                (identifier))))))))))
               (statement
-                (condition_statement))
+                (assignment
+                  (identifier)
+                  (map
+                    (statement
+                      (assignment
+                        (identifier)
+                        (simple_value
+                          (number))))))))))
+        (statement
+          (assignment
+            (identifier)
+            (map
               (statement
                 (condition_statement
                   (map
@@ -3672,10 +3591,6 @@ grand_captain = {
             (identifier)
             (map
               (statement
-                (condition_statement))
-              (statement
-                (condition_statement))
-              (statement
                 (condition_statement
                   (map
                     (statement
@@ -3700,39 +3615,6 @@ grand_captain = {
           (assignment
             (identifier)
             (map
-              (statement
-                (condition_statement))
-              (statement
-                (condition_statement))
-              (statement
-                (condition_statement
-                  (map
-                    (statement
-                      (assignment
-                        (identifier)
-                        (map
-                          (statement
-                            (assignment
-                              (identifier)
-                              (simple_value
-                                (identifier))))))))))
-              (statement
-                (assignment
-                  (identifier)
-                  (map
-                    (statement
-                      (assignment
-                        (identifier)
-                        (simple_value
-                          (number))))))))))
-        (statement
-          (assignment
-            (identifier)
-            (map
-              (statement
-                (condition_statement))
-              (statement
-                (condition_statement))
               (statement
                 (condition_statement
                   (map
@@ -3759,9 +3641,30 @@ grand_captain = {
             (identifier)
             (map
               (statement
-                (condition_statement))
+                (condition_statement
+                  (map
+                    (statement
+                      (assignment
+                        (identifier)
+                        (map
+                          (statement
+                            (assignment
+                              (identifier)
+                              (simple_value
+                                (identifier))))))))))
               (statement
-                (condition_statement))
+                (assignment
+                  (identifier)
+                  (map
+                    (statement
+                      (assignment
+                        (identifier)
+                        (simple_value
+                          (number))))))))))
+        (statement
+          (assignment
+            (identifier)
+            (map
               (statement
                 (condition_statement
                   (map
@@ -3788,10 +3691,6 @@ grand_captain = {
             (identifier)
             (map
               (statement
-                (condition_statement))
-              (statement
-                (condition_statement))
-              (statement
                 (condition_statement
                   (map
                     (statement
@@ -3812,15 +3711,13 @@ grand_captain = {
                         (identifier)
                         (simple_value
                           (number))))))))))
+        (comment)
+        (comment)
         (statement
           (assignment
             (identifier)
             (map
               (statement
-                (condition_statement))
-              (statement
-                (condition_statement))
-              (statement
                 (condition_statement
                   (map
                     (statement
@@ -3844,47 +3741,8 @@ grand_captain = {
         (comment)
         (comment)
         (statement
-          (simple_value
-            (identifier)))
-        (statement
-          (condition_statement))
-        (statement
-          (condition_statement
-            (map
-              (statement
-                (condition_statement))
-              (statement
-                (condition_statement))
-              (statement
-                (condition_statement
-                  (map
-                    (statement
-                      (assignment
-                        (identifier)
-                        (map
-                          (statement
-                            (assignment
-                              (identifier)
-                              (simple_value
-                                (identifier))))))))))
-              (statement
-                (assignment
-                  (identifier)
-                  (map
-                    (statement
-                      (assignment
-                        (identifier)
-                        (simple_value
-                          (number))))))))))
-        (comment)
-        (comment)
-        (statement
-          (simple_value
-            (identifier)))
-        (statement
-          (condition_statement))
-        (statement
-          (condition_statement
+          (assignment
+            (identifier)
             (map
               (statement
                 (assignment
@@ -3902,12 +3760,8 @@ grand_captain = {
                     (number))))))))))
   (comment)
   (statement
-    (simple_value
-      (identifier)))
-  (statement
-    (condition_statement))
-  (statement
-    (condition_statement
+    (assignment
+      (identifier)
       (map
         (statement
           (assignment
@@ -3918,10 +3772,6 @@ grand_captain = {
           (assignment
             (identifier)
             (map
-              (statement
-                (condition_statement))
-              (statement
-                (condition_statement))
               (statement
                 (condition_statement
                   (map
@@ -3947,10 +3797,6 @@ grand_captain = {
           (assignment
             (identifier)
             (map
-              (statement
-                (condition_statement))
-              (statement
-                (condition_statement))
               (statement
                 (condition_statement
                   (map
@@ -3985,10 +3831,6 @@ grand_captain = {
             (identifier)
             (map
               (statement
-                (condition_statement))
-              (statement
-                (condition_statement))
-              (statement
                 (condition_statement
                   (map
                     (statement
@@ -4013,10 +3855,6 @@ grand_captain = {
           (assignment
             (identifier)
             (map
-              (statement
-                (condition_statement))
-              (statement
-                (condition_statement))
               (statement
                 (condition_statement
                   (map
@@ -4040,21 +3878,14 @@ grand_captain = {
                           (number))))))))))
         (comment)
         (statement
-          (simple_value
-            (identifier)))
-        (statement
-          (condition_statement))
-        (statement
-          (simple_value
-            (number)))
+          (assignment
+            (identifier)
+            (simple_value
+              (number))))
         (statement
           (assignment
             (identifier)
             (map
-              (statement
-                (condition_statement))
-              (statement
-                (condition_statement))
               (statement
                 (condition_statement
                   (map
@@ -4081,9 +3912,30 @@ grand_captain = {
             (identifier)
             (map
               (statement
-                (condition_statement))
+                (condition_statement
+                  (map
+                    (statement
+                      (assignment
+                        (identifier)
+                        (map
+                          (statement
+                            (assignment
+                              (identifier)
+                              (simple_value
+                                (identifier))))))))))
               (statement
-                (condition_statement))
+                (assignment
+                  (identifier)
+                  (map
+                    (statement
+                      (assignment
+                        (identifier)
+                        (simple_value
+                          (number))))))))))
+        (statement
+          (assignment
+            (identifier)
+            (map
               (statement
                 (condition_statement
                   (map
@@ -4110,10 +3962,6 @@ grand_captain = {
             (identifier)
             (map
               (statement
-                (condition_statement))
-              (statement
-                (condition_statement))
-              (statement
                 (condition_statement
                   (map
                     (statement
@@ -4138,39 +3986,6 @@ grand_captain = {
           (assignment
             (identifier)
             (map
-              (statement
-                (condition_statement))
-              (statement
-                (condition_statement))
-              (statement
-                (condition_statement
-                  (map
-                    (statement
-                      (assignment
-                        (identifier)
-                        (map
-                          (statement
-                            (assignment
-                              (identifier)
-                              (simple_value
-                                (identifier))))))))))
-              (statement
-                (assignment
-                  (identifier)
-                  (map
-                    (statement
-                      (assignment
-                        (identifier)
-                        (simple_value
-                          (number))))))))))
-        (statement
-          (assignment
-            (identifier)
-            (map
-              (statement
-                (condition_statement))
-              (statement
-                (condition_statement))
               (statement
                 (condition_statement
                   (map
@@ -4197,9 +4012,30 @@ grand_captain = {
             (identifier)
             (map
               (statement
-                (condition_statement))
+                (condition_statement
+                  (map
+                    (statement
+                      (assignment
+                        (identifier)
+                        (map
+                          (statement
+                            (assignment
+                              (identifier)
+                              (simple_value
+                                (identifier))))))))))
               (statement
-                (condition_statement))
+                (assignment
+                  (identifier)
+                  (map
+                    (statement
+                      (assignment
+                        (identifier)
+                        (simple_value
+                          (number))))))))))
+        (statement
+          (assignment
+            (identifier)
+            (map
               (statement
                 (condition_statement
                   (map
@@ -4226,10 +4062,6 @@ grand_captain = {
             (identifier)
             (map
               (statement
-                (condition_statement))
-              (statement
-                (condition_statement))
-              (statement
                 (condition_statement
                   (map
                     (statement
@@ -4255,10 +4087,6 @@ grand_captain = {
             (identifier)
             (map
               (statement
-                (condition_statement))
-              (statement
-                (condition_statement))
-              (statement
                 (condition_statement
                   (map
                     (statement
@@ -4279,15 +4107,13 @@ grand_captain = {
                         (identifier)
                         (simple_value
                           (number))))))))))
+        (comment)
+        (comment)
         (statement
           (assignment
             (identifier)
             (map
               (statement
-                (condition_statement))
-              (statement
-                (condition_statement))
-              (statement
                 (condition_statement
                   (map
                     (statement
@@ -4311,47 +4137,8 @@ grand_captain = {
         (comment)
         (comment)
         (statement
-          (simple_value
-            (identifier)))
-        (statement
-          (condition_statement))
-        (statement
-          (condition_statement
-            (map
-              (statement
-                (condition_statement))
-              (statement
-                (condition_statement))
-              (statement
-                (condition_statement
-                  (map
-                    (statement
-                      (assignment
-                        (identifier)
-                        (map
-                          (statement
-                            (assignment
-                              (identifier)
-                              (simple_value
-                                (identifier))))))))))
-              (statement
-                (assignment
-                  (identifier)
-                  (map
-                    (statement
-                      (assignment
-                        (identifier)
-                        (simple_value
-                          (number))))))))))
-        (comment)
-        (comment)
-        (statement
-          (simple_value
-            (identifier)))
-        (statement
-          (condition_statement))
-        (statement
-          (condition_statement
+          (assignment
+            (identifier)
             (map
               (statement
                 (assignment
@@ -4403,12 +4190,8 @@ grand_captain = {
                                 (number))))))))))))))))
   (comment)
   (statement
-    (simple_value
-      (identifier)))
-  (statement
-    (condition_statement))
-  (statement
-    (condition_statement
+    (assignment
+      (identifier)
       (map
         (statement
           (assignment
@@ -4419,10 +4202,6 @@ grand_captain = {
           (assignment
             (identifier)
             (map
-              (statement
-                (condition_statement))
-              (statement
-                (condition_statement))
               (statement
                 (condition_statement
                   (map
@@ -4448,10 +4227,6 @@ grand_captain = {
           (assignment
             (identifier)
             (map
-              (statement
-                (condition_statement))
-              (statement
-                (condition_statement))
               (statement
                 (condition_statement
                   (map
@@ -4486,10 +4261,6 @@ grand_captain = {
             (identifier)
             (map
               (statement
-                (condition_statement))
-              (statement
-                (condition_statement))
-              (statement
                 (condition_statement
                   (map
                     (statement
@@ -4515,10 +4286,6 @@ grand_captain = {
             (identifier)
             (map
               (statement
-                (condition_statement))
-              (statement
-                (condition_statement))
-              (statement
                 (condition_statement
                   (map
                     (statement
@@ -4543,10 +4310,6 @@ grand_captain = {
           (assignment
             (identifier)
             (map
-              (statement
-                (condition_statement))
-              (statement
-                (condition_statement))
               (statement
                 (condition_statement
                   (map
@@ -4570,21 +4333,14 @@ grand_captain = {
                           (number))))))))))
         (comment)
         (statement
-          (simple_value
-            (identifier)))
-        (statement
-          (condition_statement))
-        (statement
-          (simple_value
-            (number)))
+          (assignment
+            (identifier)
+            (simple_value
+              (number))))
         (statement
           (assignment
             (identifier)
             (map
-              (statement
-                (condition_statement))
-              (statement
-                (condition_statement))
               (statement
                 (condition_statement
                   (map
@@ -4611,10 +4367,6 @@ grand_captain = {
             (identifier)
             (map
               (statement
-                (condition_statement))
-              (statement
-                (condition_statement))
-              (statement
                 (condition_statement
                   (map
                     (statement
@@ -4639,10 +4391,6 @@ grand_captain = {
           (assignment
             (identifier)
             (map
-              (statement
-                (condition_statement))
-              (statement
-                (condition_statement))
               (statement
                 (condition_statement
                   (map
@@ -4677,10 +4425,6 @@ grand_captain = {
             (identifier)
             (map
               (statement
-                (condition_statement))
-              (statement
-                (condition_statement))
-              (statement
                 (condition_statement
                   (map
                     (statement
@@ -4705,10 +4449,6 @@ grand_captain = {
           (assignment
             (identifier)
             (map
-              (statement
-                (condition_statement))
-              (statement
-                (condition_statement))
               (statement
                 (condition_statement
                   (map
@@ -4735,9 +4475,30 @@ grand_captain = {
             (identifier)
             (map
               (statement
-                (condition_statement))
+                (condition_statement
+                  (map
+                    (statement
+                      (assignment
+                        (identifier)
+                        (map
+                          (statement
+                            (assignment
+                              (identifier)
+                              (simple_value
+                                (identifier))))))))))
               (statement
-                (condition_statement))
+                (assignment
+                  (identifier)
+                  (map
+                    (statement
+                      (assignment
+                        (identifier)
+                        (simple_value
+                          (number))))))))))
+        (statement
+          (assignment
+            (identifier)
+            (map
               (statement
                 (condition_statement
                   (map
@@ -4764,10 +4525,6 @@ grand_captain = {
             (identifier)
             (map
               (statement
-                (condition_statement))
-              (statement
-                (condition_statement))
-              (statement
                 (condition_statement
                   (map
                     (statement
@@ -4792,39 +4549,6 @@ grand_captain = {
           (assignment
             (identifier)
             (map
-              (statement
-                (condition_statement))
-              (statement
-                (condition_statement))
-              (statement
-                (condition_statement
-                  (map
-                    (statement
-                      (assignment
-                        (identifier)
-                        (map
-                          (statement
-                            (assignment
-                              (identifier)
-                              (simple_value
-                                (identifier))))))))))
-              (statement
-                (assignment
-                  (identifier)
-                  (map
-                    (statement
-                      (assignment
-                        (identifier)
-                        (simple_value
-                          (number))))))))))
-        (statement
-          (assignment
-            (identifier)
-            (map
-              (statement
-                (condition_statement))
-              (statement
-                (condition_statement))
               (statement
                 (condition_statement
                   (map
@@ -4849,17 +4573,9 @@ grand_captain = {
         (comment)
         (comment)
         (statement
-          (simple_value
-            (identifier)))
-        (statement
-          (condition_statement))
-        (statement
-          (condition_statement
+          (assignment
+            (identifier)
             (map
-              (statement
-                (condition_statement))
-              (statement
-                (condition_statement))
               (statement
                 (condition_statement
                   (map
@@ -4886,10 +4602,6 @@ grand_captain = {
             (identifier)
             (map
               (statement
-                (condition_statement))
-              (statement
-                (condition_statement))
-              (statement
                 (condition_statement
                   (map
                     (statement
@@ -4914,10 +4626,6 @@ grand_captain = {
           (assignment
             (identifier)
             (map
-              (statement
-                (condition_statement))
-              (statement
-                (condition_statement))
               (statement
                 (condition_statement
                   (map
@@ -4956,17 +4664,9 @@ grand_captain = {
                           (number))))))))))
         (comment)
         (statement
-          (simple_value
-            (identifier)))
-        (statement
-          (condition_statement))
-        (statement
-          (condition_statement
+          (assignment
+            (identifier)
             (map
-              (statement
-                (condition_statement))
-              (statement
-                (condition_statement))
               (statement
                 (condition_statement
                   (map
@@ -5001,10 +4701,6 @@ grand_captain = {
             (identifier)
             (map
               (statement
-                (condition_statement))
-              (statement
-                (condition_statement))
-              (statement
                 (condition_statement
                   (map
                     (statement
@@ -5045,10 +4741,6 @@ grand_captain = {
             (identifier)
             (map
               (statement
-                (condition_statement))
-              (statement
-                (condition_statement))
-              (statement
                 (condition_statement
                   (map
                     (statement
@@ -5086,10 +4778,6 @@ grand_captain = {
           (assignment
             (identifier)
             (map
-              (statement
-                (condition_statement))
-              (statement
-                (condition_statement))
               (statement
                 (condition_statement
                   (map
@@ -5129,10 +4817,6 @@ grand_captain = {
             (identifier)
             (map
               (statement
-                (condition_statement))
-              (statement
-                (condition_statement))
-              (statement
                 (condition_statement
                   (map
                     (statement
@@ -5167,12 +4851,8 @@ grand_captain = {
         (comment)
         (comment)
         (statement
-          (simple_value
-            (identifier)))
-        (statement
-          (condition_statement))
-        (statement
-          (condition_statement
+          (assignment
+            (identifier)
             (map
               (statement
                 (assignment
@@ -5190,12 +4870,8 @@ grand_captain = {
                     (number))))))))))
   (comment)
   (statement
-    (simple_value
-      (identifier)))
-  (statement
-    (condition_statement))
-  (statement
-    (condition_statement
+    (assignment
+      (identifier)
       (map
         (statement
           (assignment
@@ -5206,10 +4882,6 @@ grand_captain = {
           (assignment
             (identifier)
             (map
-              (statement
-                (condition_statement))
-              (statement
-                (condition_statement))
               (statement
                 (condition_statement
                   (map
@@ -5235,10 +4907,6 @@ grand_captain = {
           (assignment
             (identifier)
             (map
-              (statement
-                (condition_statement))
-              (statement
-                (condition_statement))
               (statement
                 (condition_statement
                   (map
@@ -5273,10 +4941,6 @@ grand_captain = {
             (identifier)
             (map
               (statement
-                (condition_statement))
-              (statement
-                (condition_statement))
-              (statement
                 (condition_statement
                   (map
                     (statement
@@ -5301,10 +4965,6 @@ grand_captain = {
           (assignment
             (identifier)
             (map
-              (statement
-                (condition_statement))
-              (statement
-                (condition_statement))
               (statement
                 (condition_statement
                   (map
@@ -5328,21 +4988,14 @@ grand_captain = {
                           (number))))))))))
         (comment)
         (statement
-          (simple_value
-            (identifier)))
-        (statement
-          (condition_statement))
-        (statement
-          (simple_value
-            (number)))
+          (assignment
+            (identifier)
+            (simple_value
+              (number))))
         (statement
           (assignment
             (identifier)
             (map
-              (statement
-                (condition_statement))
-              (statement
-                (condition_statement))
               (statement
                 (condition_statement
                   (map
@@ -5369,9 +5022,30 @@ grand_captain = {
             (identifier)
             (map
               (statement
-                (condition_statement))
+                (condition_statement
+                  (map
+                    (statement
+                      (assignment
+                        (identifier)
+                        (map
+                          (statement
+                            (assignment
+                              (identifier)
+                              (simple_value
+                                (identifier))))))))))
               (statement
-                (condition_statement))
+                (assignment
+                  (identifier)
+                  (map
+                    (statement
+                      (assignment
+                        (identifier)
+                        (simple_value
+                          (number))))))))))
+        (statement
+          (assignment
+            (identifier)
+            (map
               (statement
                 (condition_statement
                   (map
@@ -5398,10 +5072,6 @@ grand_captain = {
             (identifier)
             (map
               (statement
-                (condition_statement))
-              (statement
-                (condition_statement))
-              (statement
                 (condition_statement
                   (map
                     (statement
@@ -5427,10 +5097,6 @@ grand_captain = {
             (identifier)
             (map
               (statement
-                (condition_statement))
-              (statement
-                (condition_statement))
-              (statement
                 (condition_statement
                   (map
                     (statement
@@ -5455,39 +5121,6 @@ grand_captain = {
           (assignment
             (identifier)
             (map
-              (statement
-                (condition_statement))
-              (statement
-                (condition_statement))
-              (statement
-                (condition_statement
-                  (map
-                    (statement
-                      (assignment
-                        (identifier)
-                        (map
-                          (statement
-                            (assignment
-                              (identifier)
-                              (simple_value
-                                (identifier))))))))))
-              (statement
-                (assignment
-                  (identifier)
-                  (map
-                    (statement
-                      (assignment
-                        (identifier)
-                        (simple_value
-                          (number))))))))))
-        (statement
-          (assignment
-            (identifier)
-            (map
-              (statement
-                (condition_statement))
-              (statement
-                (condition_statement))
               (statement
                 (condition_statement
                   (map
@@ -5514,9 +5147,30 @@ grand_captain = {
             (identifier)
             (map
               (statement
-                (condition_statement))
+                (condition_statement
+                  (map
+                    (statement
+                      (assignment
+                        (identifier)
+                        (map
+                          (statement
+                            (assignment
+                              (identifier)
+                              (simple_value
+                                (identifier))))))))))
               (statement
-                (condition_statement))
+                (assignment
+                  (identifier)
+                  (map
+                    (statement
+                      (assignment
+                        (identifier)
+                        (simple_value
+                          (number))))))))))
+        (statement
+          (assignment
+            (identifier)
+            (map
               (statement
                 (condition_statement
                   (map
@@ -5543,10 +5197,6 @@ grand_captain = {
             (identifier)
             (map
               (statement
-                (condition_statement))
-              (statement
-                (condition_statement))
-              (statement
                 (condition_statement
                   (map
                     (statement
@@ -5571,39 +5221,6 @@ grand_captain = {
           (assignment
             (identifier)
             (map
-              (statement
-                (condition_statement))
-              (statement
-                (condition_statement))
-              (statement
-                (condition_statement
-                  (map
-                    (statement
-                      (assignment
-                        (identifier)
-                        (map
-                          (statement
-                            (assignment
-                              (identifier)
-                              (simple_value
-                                (identifier))))))))))
-              (statement
-                (assignment
-                  (identifier)
-                  (map
-                    (statement
-                      (assignment
-                        (identifier)
-                        (simple_value
-                          (number))))))))))
-        (statement
-          (assignment
-            (identifier)
-            (map
-              (statement
-                (condition_statement))
-              (statement
-                (condition_statement))
               (statement
                 (condition_statement
                   (map
@@ -5633,17 +5250,9 @@ grand_captain = {
         (comment)
         (comment)
         (statement
-          (simple_value
-            (identifier)))
-        (statement
-          (condition_statement))
-        (statement
-          (condition_statement
+          (assignment
+            (identifier)
             (map
-              (statement
-                (condition_statement))
-              (statement
-                (condition_statement))
               (statement
                 (condition_statement
                   (map
@@ -5668,12 +5277,8 @@ grand_captain = {
         (comment)
         (comment)
         (statement
-          (simple_value
-            (identifier)))
-        (statement
-          (condition_statement))
-        (statement
-          (condition_statement
+          (assignment
+            (identifier)
             (map
               (statement
                 (assignment
@@ -5719,12 +5324,8 @@ grand_captain = {
                           (number)))))))))))))
   (comment)
   (statement
-    (simple_value
-      (identifier)))
-  (statement
-    (condition_statement))
-  (statement
-    (condition_statement
+    (assignment
+      (identifier)
       (map
         (statement
           (assignment
@@ -5735,10 +5336,6 @@ grand_captain = {
           (assignment
             (identifier)
             (map
-              (statement
-                (condition_statement))
-              (statement
-                (condition_statement))
               (statement
                 (condition_statement
                   (map
@@ -5764,10 +5361,6 @@ grand_captain = {
           (assignment
             (identifier)
             (map
-              (statement
-                (condition_statement))
-              (statement
-                (condition_statement))
               (statement
                 (condition_statement
                   (map
@@ -5802,10 +5395,6 @@ grand_captain = {
             (identifier)
             (map
               (statement
-                (condition_statement))
-              (statement
-                (condition_statement))
-              (statement
                 (condition_statement
                   (map
                     (statement
@@ -5831,10 +5420,6 @@ grand_captain = {
             (identifier)
             (map
               (statement
-                (condition_statement))
-              (statement
-                (condition_statement))
-              (statement
                 (condition_statement
                   (map
                     (statement
@@ -5859,10 +5444,6 @@ grand_captain = {
           (assignment
             (identifier)
             (map
-              (statement
-                (condition_statement))
-              (statement
-                (condition_statement))
               (statement
                 (condition_statement
                   (map
@@ -5886,21 +5467,14 @@ grand_captain = {
                           (number))))))))))
         (comment)
         (statement
-          (simple_value
-            (identifier)))
-        (statement
-          (condition_statement))
-        (statement
-          (simple_value
-            (number)))
+          (assignment
+            (identifier)
+            (simple_value
+              (number))))
         (statement
           (assignment
             (identifier)
             (map
-              (statement
-                (condition_statement))
-              (statement
-                (condition_statement))
               (statement
                 (condition_statement
                   (map
@@ -5927,10 +5501,6 @@ grand_captain = {
             (identifier)
             (map
               (statement
-                (condition_statement))
-              (statement
-                (condition_statement))
-              (statement
                 (condition_statement
                   (map
                     (statement
@@ -5956,10 +5526,6 @@ grand_captain = {
             (identifier)
             (map
               (statement
-                (condition_statement))
-              (statement
-                (condition_statement))
-              (statement
                 (condition_statement
                   (map
                     (statement
@@ -5984,10 +5550,6 @@ grand_captain = {
           (assignment
             (identifier)
             (map
-              (statement
-                (condition_statement))
-              (statement
-                (condition_statement))
               (statement
                 (condition_statement
                   (map
@@ -6043,10 +5605,6 @@ grand_captain = {
           (assignment
             (identifier)
             (map
-              (statement
-                (condition_statement))
-              (statement
-                (condition_statement))
               (statement
                 (condition_statement
                   (map
@@ -6094,10 +5652,6 @@ grand_captain = {
             (identifier)
             (map
               (statement
-                (condition_statement))
-              (statement
-                (condition_statement))
-              (statement
                 (condition_statement
                   (map
                     (statement
@@ -6144,9 +5698,53 @@ grand_captain = {
             (identifier)
             (map
               (statement
-                (condition_statement))
+                (condition_statement
+                  (map
+                    (statement
+                      (assignment
+                        (identifier)
+                        (map
+                          (statement
+                            (assignment
+                              (identifier)
+                              (simple_value
+                                (identifier))))
+                          (statement
+                            (assignment
+                              (identifier)
+                              (simple_value
+                                (identifier))))
+                          (statement
+                            (logical_statement
+                              (map
+                                (statement
+                                  (assignment
+                                    (identifier)
+                                    (simple_value
+                                      (identifier)))))))))))))
               (statement
-                (condition_statement))
+                (assignment
+                  (identifier)
+                  (map
+                    (statement
+                      (assignment
+                        (identifier)
+                        (simple_value
+                          (number))))
+                    (statement
+                      (assignment
+                        (identifier)
+                        (simple_value
+                          (number))))
+                    (statement
+                      (assignment
+                        (identifier)
+                        (simple_value
+                          (number))))))))))
+        (statement
+          (assignment
+            (identifier)
+            (map
               (statement
                 (condition_statement
                   (map
@@ -6196,62 +5794,6 @@ grand_captain = {
             (identifier)
             (map
               (statement
-                (condition_statement))
-              (statement
-                (condition_statement))
-              (statement
-                (condition_statement
-                  (map
-                    (statement
-                      (assignment
-                        (identifier)
-                        (map
-                          (statement
-                            (assignment
-                              (identifier)
-                              (simple_value
-                                (identifier))))
-                          (statement
-                            (assignment
-                              (identifier)
-                              (simple_value
-                                (identifier))))
-                          (statement
-                            (logical_statement
-                              (map
-                                (statement
-                                  (assignment
-                                    (identifier)
-                                    (simple_value
-                                      (identifier)))))))))))))
-              (statement
-                (assignment
-                  (identifier)
-                  (map
-                    (statement
-                      (assignment
-                        (identifier)
-                        (simple_value
-                          (number))))
-                    (statement
-                      (assignment
-                        (identifier)
-                        (simple_value
-                          (number))))
-                    (statement
-                      (assignment
-                        (identifier)
-                        (simple_value
-                          (number))))))))))
-        (statement
-          (assignment
-            (identifier)
-            (map
-              (statement
-                (condition_statement))
-              (statement
-                (condition_statement))
-              (statement
                 (condition_statement
                   (map
                     (statement
@@ -6277,10 +5819,6 @@ grand_captain = {
             (identifier)
             (map
               (statement
-                (condition_statement))
-              (statement
-                (condition_statement))
-              (statement
                 (condition_statement
                   (map
                     (statement
@@ -6305,10 +5843,6 @@ grand_captain = {
           (assignment
             (identifier)
             (map
-              (statement
-                (condition_statement))
-              (statement
-                (condition_statement))
               (statement
                 (condition_statement
                   (map
@@ -6335,9 +5869,30 @@ grand_captain = {
             (identifier)
             (map
               (statement
-                (condition_statement))
+                (condition_statement
+                  (map
+                    (statement
+                      (assignment
+                        (identifier)
+                        (map
+                          (statement
+                            (assignment
+                              (identifier)
+                              (simple_value
+                                (identifier))))))))))
               (statement
-                (condition_statement))
+                (assignment
+                  (identifier)
+                  (map
+                    (statement
+                      (assignment
+                        (identifier)
+                        (simple_value
+                          (number))))))))))
+        (statement
+          (assignment
+            (identifier)
+            (map
               (statement
                 (condition_statement
                   (map
@@ -6364,10 +5919,6 @@ grand_captain = {
             (identifier)
             (map
               (statement
-                (condition_statement))
-              (statement
-                (condition_statement))
-              (statement
                 (condition_statement
                   (map
                     (statement
@@ -6388,15 +5939,13 @@ grand_captain = {
                         (identifier)
                         (simple_value
                           (number))))))))))
+        (comment)
+        (comment)
         (statement
           (assignment
             (identifier)
             (map
               (statement
-                (condition_statement))
-              (statement
-                (condition_statement))
-              (statement
                 (condition_statement
                   (map
                     (statement
@@ -6420,47 +5969,8 @@ grand_captain = {
         (comment)
         (comment)
         (statement
-          (simple_value
-            (identifier)))
-        (statement
-          (condition_statement))
-        (statement
-          (condition_statement
-            (map
-              (statement
-                (condition_statement))
-              (statement
-                (condition_statement))
-              (statement
-                (condition_statement
-                  (map
-                    (statement
-                      (assignment
-                        (identifier)
-                        (map
-                          (statement
-                            (assignment
-                              (identifier)
-                              (simple_value
-                                (identifier))))))))))
-              (statement
-                (assignment
-                  (identifier)
-                  (map
-                    (statement
-                      (assignment
-                        (identifier)
-                        (simple_value
-                          (number))))))))))
-        (comment)
-        (comment)
-        (statement
-          (simple_value
-            (identifier)))
-        (statement
-          (condition_statement))
-        (statement
-          (condition_statement
+          (assignment
+            (identifier)
             (map
               (statement
                 (assignment
@@ -6495,12 +6005,8 @@ grand_captain = {
                                 (number))))))))))))))))
   (comment)
   (statement
-    (simple_value
-      (identifier)))
-  (statement
-    (condition_statement))
-  (statement
-    (condition_statement
+    (assignment
+      (identifier)
       (map
         (statement
           (assignment
@@ -6511,10 +6017,6 @@ grand_captain = {
           (assignment
             (identifier)
             (map
-              (statement
-                (condition_statement))
-              (statement
-                (condition_statement))
               (statement
                 (condition_statement
                   (map
@@ -6540,10 +6042,6 @@ grand_captain = {
           (assignment
             (identifier)
             (map
-              (statement
-                (condition_statement))
-              (statement
-                (condition_statement))
               (statement
                 (condition_statement
                   (map
@@ -6583,10 +6081,6 @@ grand_captain = {
             (identifier)
             (map
               (statement
-                (condition_statement))
-              (statement
-                (condition_statement))
-              (statement
                 (condition_statement
                   (map
                     (statement
@@ -6612,10 +6106,6 @@ grand_captain = {
             (identifier)
             (map
               (statement
-                (condition_statement))
-              (statement
-                (condition_statement))
-              (statement
                 (condition_statement
                   (map
                     (statement
@@ -6640,10 +6130,6 @@ grand_captain = {
           (assignment
             (identifier)
             (map
-              (statement
-                (condition_statement))
-              (statement
-                (condition_statement))
               (statement
                 (condition_statement
                   (map
@@ -6667,21 +6153,14 @@ grand_captain = {
                           (number))))))))))
         (comment)
         (statement
-          (simple_value
-            (identifier)))
-        (statement
-          (condition_statement))
-        (statement
-          (simple_value
-            (number)))
+          (assignment
+            (identifier)
+            (simple_value
+              (number))))
         (statement
           (assignment
             (identifier)
             (map
-              (statement
-                (condition_statement))
-              (statement
-                (condition_statement))
               (statement
                 (condition_statement
                   (map
@@ -6708,9 +6187,30 @@ grand_captain = {
             (identifier)
             (map
               (statement
-                (condition_statement))
+                (condition_statement
+                  (map
+                    (statement
+                      (assignment
+                        (identifier)
+                        (map
+                          (statement
+                            (assignment
+                              (identifier)
+                              (simple_value
+                                (identifier))))))))))
               (statement
-                (condition_statement))
+                (assignment
+                  (identifier)
+                  (map
+                    (statement
+                      (assignment
+                        (identifier)
+                        (simple_value
+                          (number))))))))))
+        (statement
+          (assignment
+            (identifier)
+            (map
               (statement
                 (condition_statement
                   (map
@@ -6737,10 +6237,6 @@ grand_captain = {
             (identifier)
             (map
               (statement
-                (condition_statement))
-              (statement
-                (condition_statement))
-              (statement
                 (condition_statement
                   (map
                     (statement
@@ -6766,10 +6262,6 @@ grand_captain = {
             (identifier)
             (map
               (statement
-                (condition_statement))
-              (statement
-                (condition_statement))
-              (statement
                 (condition_statement
                   (map
                     (statement
@@ -6794,39 +6286,6 @@ grand_captain = {
           (assignment
             (identifier)
             (map
-              (statement
-                (condition_statement))
-              (statement
-                (condition_statement))
-              (statement
-                (condition_statement
-                  (map
-                    (statement
-                      (assignment
-                        (identifier)
-                        (map
-                          (statement
-                            (assignment
-                              (identifier)
-                              (simple_value
-                                (identifier))))))))))
-              (statement
-                (assignment
-                  (identifier)
-                  (map
-                    (statement
-                      (assignment
-                        (identifier)
-                        (simple_value
-                          (number))))))))))
-        (statement
-          (assignment
-            (identifier)
-            (map
-              (statement
-                (condition_statement))
-              (statement
-                (condition_statement))
               (statement
                 (condition_statement
                   (map
@@ -6853,9 +6312,30 @@ grand_captain = {
             (identifier)
             (map
               (statement
-                (condition_statement))
+                (condition_statement
+                  (map
+                    (statement
+                      (assignment
+                        (identifier)
+                        (map
+                          (statement
+                            (assignment
+                              (identifier)
+                              (simple_value
+                                (identifier))))))))))
               (statement
-                (condition_statement))
+                (assignment
+                  (identifier)
+                  (map
+                    (statement
+                      (assignment
+                        (identifier)
+                        (simple_value
+                          (number))))))))))
+        (statement
+          (assignment
+            (identifier)
+            (map
               (statement
                 (condition_statement
                   (map
@@ -6882,9 +6362,30 @@ grand_captain = {
             (identifier)
             (map
               (statement
-                (condition_statement))
+                (condition_statement
+                  (map
+                    (statement
+                      (assignment
+                        (identifier)
+                        (map
+                          (statement
+                            (assignment
+                              (identifier)
+                              (simple_value
+                                (identifier))))))))))
               (statement
-                (condition_statement))
+                (assignment
+                  (identifier)
+                  (map
+                    (statement
+                      (assignment
+                        (identifier)
+                        (simple_value
+                          (number))))))))))
+        (statement
+          (assignment
+            (identifier)
+            (map
               (statement
                 (condition_statement
                   (map
@@ -6911,10 +6412,6 @@ grand_captain = {
             (identifier)
             (map
               (statement
-                (condition_statement))
-              (statement
-                (condition_statement))
-              (statement
                 (condition_statement
                   (map
                     (statement
@@ -6935,15 +6432,13 @@ grand_captain = {
                         (identifier)
                         (simple_value
                           (number))))))))))
+        (comment)
+        (comment)
         (statement
           (assignment
             (identifier)
             (map
               (statement
-                (condition_statement))
-              (statement
-                (condition_statement))
-              (statement
                 (condition_statement
                   (map
                     (statement
@@ -6964,79 +6459,11 @@ grand_captain = {
                         (identifier)
                         (simple_value
                           (number))))))))))
+        (comment)
+        (comment)
         (statement
           (assignment
             (identifier)
-            (map
-              (statement
-                (condition_statement))
-              (statement
-                (condition_statement))
-              (statement
-                (condition_statement
-                  (map
-                    (statement
-                      (assignment
-                        (identifier)
-                        (map
-                          (statement
-                            (assignment
-                              (identifier)
-                              (simple_value
-                                (identifier))))))))))
-              (statement
-                (assignment
-                  (identifier)
-                  (map
-                    (statement
-                      (assignment
-                        (identifier)
-                        (simple_value
-                          (number))))))))))
-        (comment)
-        (comment)
-        (statement
-          (simple_value
-            (identifier)))
-        (statement
-          (condition_statement))
-        (statement
-          (condition_statement
-            (map
-              (statement
-                (condition_statement))
-              (statement
-                (condition_statement))
-              (statement
-                (condition_statement
-                  (map
-                    (statement
-                      (assignment
-                        (identifier)
-                        (map
-                          (statement
-                            (assignment
-                              (identifier)
-                              (simple_value
-                                (identifier))))))))))
-              (statement
-                (assignment
-                  (identifier)
-                  (map
-                    (statement
-                      (assignment
-                        (identifier)
-                        (simple_value
-                          (number))))))))))
-        (comment)
-        (comment)
-        (statement
-          (simple_value
-            (identifier)))
-        (statement
-          (condition_statement))
-        (statement
-          (condition_statement
             (map
               (statement
                 (assignment
@@ -7102,12 +6529,8 @@ grand_captain = {
   (comment)
   (comment)
   (statement
-    (simple_value
-      (identifier)))
-  (statement
-    (condition_statement))
-  (statement
-    (condition_statement
+    (assignment
+      (identifier)
       (map
         (statement
           (assignment
@@ -7118,10 +6541,6 @@ grand_captain = {
           (assignment
             (identifier)
             (map
-              (statement
-                (condition_statement))
-              (statement
-                (condition_statement))
               (statement
                 (condition_statement
                   (map
@@ -7156,10 +6575,6 @@ grand_captain = {
             (identifier)
             (map
               (statement
-                (condition_statement))
-              (statement
-                (condition_statement))
-              (statement
                 (condition_statement
                   (map
                     (statement
@@ -7182,21 +6597,14 @@ grand_captain = {
                           (number))))))))))
         (comment)
         (statement
-          (simple_value
-            (identifier)))
-        (statement
-          (condition_statement))
-        (statement
-          (simple_value
-            (number)))
+          (assignment
+            (identifier)
+            (simple_value
+              (number))))
         (statement
           (assignment
             (identifier)
             (map
-              (statement
-                (condition_statement))
-              (statement
-                (condition_statement))
               (statement
                 (condition_statement
                   (map
@@ -7223,10 +6631,6 @@ grand_captain = {
             (identifier)
             (map
               (statement
-                (condition_statement))
-              (statement
-                (condition_statement))
-              (statement
                 (condition_statement
                   (map
                     (statement
@@ -7252,10 +6656,6 @@ grand_captain = {
             (identifier)
             (map
               (statement
-                (condition_statement))
-              (statement
-                (condition_statement))
-              (statement
                 (condition_statement
                   (map
                     (statement
@@ -7280,10 +6680,6 @@ grand_captain = {
           (assignment
             (identifier)
             (map
-              (statement
-                (condition_statement))
-              (statement
-                (condition_statement))
               (statement
                 (condition_statement
                   (map
@@ -7315,10 +6711,6 @@ grand_captain = {
             (identifier)
             (map
               (statement
-                (condition_statement))
-              (statement
-                (condition_statement))
-              (statement
                 (condition_statement
                   (map
                     (statement
@@ -7343,10 +6735,6 @@ grand_captain = {
           (assignment
             (identifier)
             (map
-              (statement
-                (condition_statement))
-              (statement
-                (condition_statement))
               (statement
                 (condition_statement
                   (map
@@ -7373,9 +6761,30 @@ grand_captain = {
             (identifier)
             (map
               (statement
-                (condition_statement))
+                (condition_statement
+                  (map
+                    (statement
+                      (assignment
+                        (identifier)
+                        (map
+                          (statement
+                            (assignment
+                              (identifier)
+                              (simple_value
+                                (identifier))))))))))
               (statement
-                (condition_statement))
+                (assignment
+                  (identifier)
+                  (map
+                    (statement
+                      (assignment
+                        (identifier)
+                        (simple_value
+                          (number))))))))))
+        (statement
+          (assignment
+            (identifier)
+            (map
               (statement
                 (condition_statement
                   (map
@@ -7402,9 +6811,30 @@ grand_captain = {
             (identifier)
             (map
               (statement
-                (condition_statement))
+                (condition_statement
+                  (map
+                    (statement
+                      (assignment
+                        (identifier)
+                        (map
+                          (statement
+                            (assignment
+                              (identifier)
+                              (simple_value
+                                (identifier))))))))))
               (statement
-                (condition_statement))
+                (assignment
+                  (identifier)
+                  (map
+                    (statement
+                      (assignment
+                        (identifier)
+                        (simple_value
+                          (number))))))))))
+        (statement
+          (assignment
+            (identifier)
+            (map
               (statement
                 (condition_statement
                   (map
@@ -7431,10 +6861,6 @@ grand_captain = {
             (identifier)
             (map
               (statement
-                (condition_statement))
-              (statement
-                (condition_statement))
-              (statement
                 (condition_statement
                   (map
                     (statement
@@ -7459,68 +6885,6 @@ grand_captain = {
           (assignment
             (identifier)
             (map
-              (statement
-                (condition_statement))
-              (statement
-                (condition_statement))
-              (statement
-                (condition_statement
-                  (map
-                    (statement
-                      (assignment
-                        (identifier)
-                        (map
-                          (statement
-                            (assignment
-                              (identifier)
-                              (simple_value
-                                (identifier))))))))))
-              (statement
-                (assignment
-                  (identifier)
-                  (map
-                    (statement
-                      (assignment
-                        (identifier)
-                        (simple_value
-                          (number))))))))))
-        (statement
-          (assignment
-            (identifier)
-            (map
-              (statement
-                (condition_statement))
-              (statement
-                (condition_statement))
-              (statement
-                (condition_statement
-                  (map
-                    (statement
-                      (assignment
-                        (identifier)
-                        (map
-                          (statement
-                            (assignment
-                              (identifier)
-                              (simple_value
-                                (identifier))))))))))
-              (statement
-                (assignment
-                  (identifier)
-                  (map
-                    (statement
-                      (assignment
-                        (identifier)
-                        (simple_value
-                          (number))))))))))
-        (statement
-          (assignment
-            (identifier)
-            (map
-              (statement
-                (condition_statement))
-              (statement
-                (condition_statement))
               (statement
                 (condition_statement
                   (map
@@ -7557,10 +6921,6 @@ grand_captain = {
             (identifier)
             (map
               (statement
-                (condition_statement))
-              (statement
-                (condition_statement))
-              (statement
                 (condition_statement
                   (map
                     (statement
@@ -7584,18 +6944,10 @@ grand_captain = {
         (comment)
         (comment)
         (statement
-          (simple_value
-            (identifier)))
-        (statement
-          (condition_statement))
-        (statement
-          (condition_statement
+          (assignment
+            (identifier)
             (map
               (statement
-                (condition_statement))
-              (statement
-                (condition_statement))
-              (statement
                 (condition_statement
                   (map
                     (statement
@@ -7619,12 +6971,8 @@ grand_captain = {
         (comment)
         (comment)
         (statement
-          (simple_value
-            (identifier)))
-        (statement
-          (condition_statement))
-        (statement
-          (condition_statement
+          (assignment
+            (identifier)
             (map
               (statement
                 (assignment
@@ -7642,12 +6990,8 @@ grand_captain = {
                     (number))))))))))
   (comment)
   (statement
-    (simple_value
-      (identifier)))
-  (statement
-    (condition_statement))
-  (statement
-    (condition_statement
+    (assignment
+      (identifier)
       (map
         (statement
           (assignment
@@ -7658,10 +7002,6 @@ grand_captain = {
           (assignment
             (identifier)
             (map
-              (statement
-                (condition_statement))
-              (statement
-                (condition_statement))
               (statement
                 (condition_statement
                   (map
@@ -7696,10 +7036,6 @@ grand_captain = {
             (identifier)
             (map
               (statement
-                (condition_statement))
-              (statement
-                (condition_statement))
-              (statement
                 (condition_statement
                   (map
                     (statement
@@ -7722,21 +7058,14 @@ grand_captain = {
                           (number))))))))))
         (comment)
         (statement
-          (simple_value
-            (identifier)))
-        (statement
-          (condition_statement))
-        (statement
-          (simple_value
-            (number)))
+          (assignment
+            (identifier)
+            (simple_value
+              (number))))
         (statement
           (assignment
             (identifier)
             (map
-              (statement
-                (condition_statement))
-              (statement
-                (condition_statement))
               (statement
                 (condition_statement
                   (map
@@ -7763,10 +7092,6 @@ grand_captain = {
             (identifier)
             (map
               (statement
-                (condition_statement))
-              (statement
-                (condition_statement))
-              (statement
                 (condition_statement
                   (map
                     (statement
@@ -7792,10 +7117,6 @@ grand_captain = {
             (identifier)
             (map
               (statement
-                (condition_statement))
-              (statement
-                (condition_statement))
-              (statement
                 (condition_statement
                   (map
                     (statement
@@ -7820,10 +7141,6 @@ grand_captain = {
           (assignment
             (identifier)
             (map
-              (statement
-                (condition_statement))
-              (statement
-                (condition_statement))
               (statement
                 (condition_statement
                   (map
@@ -7850,10 +7167,6 @@ grand_captain = {
             (identifier)
             (map
               (statement
-                (condition_statement))
-              (statement
-                (condition_statement))
-              (statement
                 (condition_statement
                   (map
                     (statement
@@ -7877,18 +7190,10 @@ grand_captain = {
         (comment)
         (comment)
         (statement
-          (simple_value
-            (identifier)))
-        (statement
-          (condition_statement))
-        (statement
-          (condition_statement
+          (assignment
+            (identifier)
             (map
               (statement
-                (condition_statement))
-              (statement
-                (condition_statement))
-              (statement
                 (condition_statement
                   (map
                     (statement
@@ -7912,12 +7217,8 @@ grand_captain = {
         (comment)
         (comment)
         (statement
-          (simple_value
-            (identifier)))
-        (statement
-          (condition_statement))
-        (statement
-          (condition_statement
+          (assignment
+            (identifier)
             (map
               (statement
                 (assignment
@@ -7967,12 +7268,8 @@ grand_captain = {
                     (number))))))))))
   (comment)
   (statement
-    (simple_value
-      (identifier)))
-  (statement
-    (condition_statement))
-  (statement
-    (condition_statement
+    (assignment
+      (identifier)
       (map
         (statement
           (assignment
@@ -7983,10 +7280,6 @@ grand_captain = {
           (assignment
             (identifier)
             (map
-              (statement
-                (condition_statement))
-              (statement
-                (condition_statement))
               (statement
                 (condition_statement
                   (map
@@ -8021,10 +7314,6 @@ grand_captain = {
             (identifier)
             (map
               (statement
-                (condition_statement))
-              (statement
-                (condition_statement))
-              (statement
                 (condition_statement
                   (map
                     (statement
@@ -8050,10 +7339,6 @@ grand_captain = {
             (identifier)
             (map
               (statement
-                (condition_statement))
-              (statement
-                (condition_statement))
-              (statement
                 (condition_statement
                   (map
                     (statement
@@ -8078,10 +7363,6 @@ grand_captain = {
           (assignment
             (identifier)
             (map
-              (statement
-                (condition_statement))
-              (statement
-                (condition_statement))
               (statement
                 (condition_statement
                   (map
@@ -8105,21 +7386,14 @@ grand_captain = {
                           (number))))))))))
         (comment)
         (statement
-          (simple_value
-            (identifier)))
-        (statement
-          (condition_statement))
-        (statement
-          (simple_value
-            (number)))
+          (assignment
+            (identifier)
+            (simple_value
+              (number))))
         (statement
           (assignment
             (identifier)
             (map
-              (statement
-                (condition_statement))
-              (statement
-                (condition_statement))
               (statement
                 (condition_statement
                   (map
@@ -8146,9 +7420,30 @@ grand_captain = {
             (identifier)
             (map
               (statement
-                (condition_statement))
+                (condition_statement
+                  (map
+                    (statement
+                      (assignment
+                        (identifier)
+                        (map
+                          (statement
+                            (assignment
+                              (identifier)
+                              (simple_value
+                                (identifier))))))))))
               (statement
-                (condition_statement))
+                (assignment
+                  (identifier)
+                  (map
+                    (statement
+                      (assignment
+                        (identifier)
+                        (simple_value
+                          (number))))))))))
+        (statement
+          (assignment
+            (identifier)
+            (map
               (statement
                 (condition_statement
                   (map
@@ -8175,10 +7470,6 @@ grand_captain = {
             (identifier)
             (map
               (statement
-                (condition_statement))
-              (statement
-                (condition_statement))
-              (statement
                 (condition_statement
                   (map
                     (statement
@@ -8204,10 +7495,6 @@ grand_captain = {
             (identifier)
             (map
               (statement
-                (condition_statement))
-              (statement
-                (condition_statement))
-              (statement
                 (condition_statement
                   (map
                     (statement
@@ -8232,39 +7519,6 @@ grand_captain = {
           (assignment
             (identifier)
             (map
-              (statement
-                (condition_statement))
-              (statement
-                (condition_statement))
-              (statement
-                (condition_statement
-                  (map
-                    (statement
-                      (assignment
-                        (identifier)
-                        (map
-                          (statement
-                            (assignment
-                              (identifier)
-                              (simple_value
-                                (identifier))))))))))
-              (statement
-                (assignment
-                  (identifier)
-                  (map
-                    (statement
-                      (assignment
-                        (identifier)
-                        (simple_value
-                          (number))))))))))
-        (statement
-          (assignment
-            (identifier)
-            (map
-              (statement
-                (condition_statement))
-              (statement
-                (condition_statement))
               (statement
                 (condition_statement
                   (map
@@ -8290,10 +7544,6 @@ grand_captain = {
           (assignment
             (identifier)
             (map
-              (statement
-                (condition_statement))
-              (statement
-                (condition_statement))
               (statement
                 (condition_statement
                   (map
@@ -8325,10 +7575,6 @@ grand_captain = {
             (identifier)
             (map
               (statement
-                (condition_statement))
-              (statement
-                (condition_statement))
-              (statement
                 (condition_statement
                   (map
                     (statement
@@ -8352,17 +7598,9 @@ grand_captain = {
         (comment)
         (comment)
         (statement
-          (simple_value
-            (identifier)))
-        (statement
-          (condition_statement))
-        (statement
-          (condition_statement
+          (assignment
+            (identifier)
             (map
-              (statement
-                (condition_statement))
-              (statement
-                (condition_statement))
               (statement
                 (condition_statement
                   (map
@@ -8389,9 +7627,30 @@ grand_captain = {
             (identifier)
             (map
               (statement
-                (condition_statement))
+                (condition_statement
+                  (map
+                    (statement
+                      (assignment
+                        (identifier)
+                        (map
+                          (statement
+                            (assignment
+                              (identifier)
+                              (simple_value
+                                (identifier))))))))))
               (statement
-                (condition_statement))
+                (assignment
+                  (identifier)
+                  (map
+                    (statement
+                      (assignment
+                        (identifier)
+                        (simple_value
+                          (number))))))))))
+        (statement
+          (assignment
+            (identifier)
+            (map
               (statement
                 (condition_statement
                   (map
@@ -8418,10 +7677,6 @@ grand_captain = {
             (identifier)
             (map
               (statement
-                (condition_statement))
-              (statement
-                (condition_statement))
-              (statement
                 (condition_statement
                   (map
                     (statement
@@ -8442,44 +7697,11 @@ grand_captain = {
                         (identifier)
                         (simple_value
                           (number))))))))))
+        (comment)
+        (comment)
         (statement
           (assignment
             (identifier)
-            (map
-              (statement
-                (condition_statement))
-              (statement
-                (condition_statement))
-              (statement
-                (condition_statement
-                  (map
-                    (statement
-                      (assignment
-                        (identifier)
-                        (map
-                          (statement
-                            (assignment
-                              (identifier)
-                              (simple_value
-                                (identifier))))))))))
-              (statement
-                (assignment
-                  (identifier)
-                  (map
-                    (statement
-                      (assignment
-                        (identifier)
-                        (simple_value
-                          (number))))))))))
-        (comment)
-        (comment)
-        (statement
-          (simple_value
-            (identifier)))
-        (statement
-          (condition_statement))
-        (statement
-          (condition_statement
             (map
               (statement
                 (assignment
@@ -8511,12 +7733,8 @@ grand_captain = {
                           (identifier)))))))))))))
   (comment)
   (statement
-    (simple_value
-      (identifier)))
-  (statement
-    (condition_statement))
-  (statement
-    (condition_statement
+    (assignment
+      (identifier)
       (map
         (statement
           (assignment
@@ -8527,10 +7745,6 @@ grand_captain = {
           (assignment
             (identifier)
             (map
-              (statement
-                (condition_statement))
-              (statement
-                (condition_statement))
               (statement
                 (condition_statement
                   (map
@@ -8565,10 +7779,6 @@ grand_captain = {
             (identifier)
             (map
               (statement
-                (condition_statement))
-              (statement
-                (condition_statement))
-              (statement
                 (condition_statement
                   (map
                     (statement
@@ -8591,21 +7801,14 @@ grand_captain = {
                           (number))))))))))
         (comment)
         (statement
-          (simple_value
-            (identifier)))
-        (statement
-          (condition_statement))
-        (statement
-          (simple_value
-            (number)))
+          (assignment
+            (identifier)
+            (simple_value
+              (number))))
         (statement
           (assignment
             (identifier)
             (map
-              (statement
-                (condition_statement))
-              (statement
-                (condition_statement))
               (statement
                 (condition_statement
                   (map
@@ -8632,10 +7835,6 @@ grand_captain = {
             (identifier)
             (map
               (statement
-                (condition_statement))
-              (statement
-                (condition_statement))
-              (statement
                 (condition_statement
                   (map
                     (statement
@@ -8660,10 +7859,6 @@ grand_captain = {
           (assignment
             (identifier)
             (map
-              (statement
-                (condition_statement))
-              (statement
-                (condition_statement))
               (statement
                 (condition_statement
                   (map
@@ -8689,10 +7884,6 @@ grand_captain = {
           (assignment
             (identifier)
             (map
-              (statement
-                (condition_statement))
-              (statement
-                (condition_statement))
               (statement
                 (condition_statement
                   (map
@@ -8722,17 +7913,9 @@ grand_captain = {
         (comment)
         (comment)
         (statement
-          (simple_value
-            (identifier)))
-        (statement
-          (condition_statement))
-        (statement
-          (condition_statement
+          (assignment
+            (identifier)
             (map
-              (statement
-                (condition_statement))
-              (statement
-                (condition_statement))
               (statement
                 (condition_statement
                   (map
@@ -8757,12 +7940,8 @@ grand_captain = {
         (comment)
         (comment)
         (statement
-          (simple_value
-            (identifier)))
-        (statement
-          (condition_statement))
-        (statement
-          (condition_statement
+          (assignment
+            (identifier)
             (map
               (statement
                 (assignment
@@ -8780,12 +7959,8 @@ grand_captain = {
                     (number))))))))))
   (comment)
   (statement
-    (simple_value
-      (identifier)))
-  (statement
-    (condition_statement))
-  (statement
-    (condition_statement
+    (assignment
+      (identifier)
       (map
         (statement
           (assignment
@@ -8796,10 +7971,6 @@ grand_captain = {
           (assignment
             (identifier)
             (map
-              (statement
-                (condition_statement))
-              (statement
-                (condition_statement))
               (statement
                 (condition_statement
                   (map
@@ -8834,10 +8005,6 @@ grand_captain = {
             (identifier)
             (map
               (statement
-                (condition_statement))
-              (statement
-                (condition_statement))
-              (statement
                 (condition_statement
                   (map
                     (statement
@@ -8860,21 +8027,14 @@ grand_captain = {
                           (number))))))))))
         (comment)
         (statement
-          (simple_value
-            (identifier)))
-        (statement
-          (condition_statement))
-        (statement
-          (simple_value
-            (number)))
+          (assignment
+            (identifier)
+            (simple_value
+              (number))))
         (statement
           (assignment
             (identifier)
             (map
-              (statement
-                (condition_statement))
-              (statement
-                (condition_statement))
               (statement
                 (condition_statement
                   (map
@@ -8901,9 +8061,30 @@ grand_captain = {
             (identifier)
             (map
               (statement
-                (condition_statement))
+                (condition_statement
+                  (map
+                    (statement
+                      (assignment
+                        (identifier)
+                        (map
+                          (statement
+                            (assignment
+                              (identifier)
+                              (simple_value
+                                (identifier))))))))))
               (statement
-                (condition_statement))
+                (assignment
+                  (identifier)
+                  (map
+                    (statement
+                      (assignment
+                        (identifier)
+                        (simple_value
+                          (number))))))))))
+        (statement
+          (assignment
+            (identifier)
+            (map
               (statement
                 (condition_statement
                   (map
@@ -8930,10 +8111,6 @@ grand_captain = {
             (identifier)
             (map
               (statement
-                (condition_statement))
-              (statement
-                (condition_statement))
-              (statement
                 (condition_statement
                   (map
                     (statement
@@ -8958,39 +8135,6 @@ grand_captain = {
           (assignment
             (identifier)
             (map
-              (statement
-                (condition_statement))
-              (statement
-                (condition_statement))
-              (statement
-                (condition_statement
-                  (map
-                    (statement
-                      (assignment
-                        (identifier)
-                        (map
-                          (statement
-                            (assignment
-                              (identifier)
-                              (simple_value
-                                (identifier))))))))))
-              (statement
-                (assignment
-                  (identifier)
-                  (map
-                    (statement
-                      (assignment
-                        (identifier)
-                        (simple_value
-                          (number))))))))))
-        (statement
-          (assignment
-            (identifier)
-            (map
-              (statement
-                (condition_statement))
-              (statement
-                (condition_statement))
               (statement
                 (condition_statement
                   (map
@@ -9016,10 +8160,6 @@ grand_captain = {
           (assignment
             (identifier)
             (map
-              (statement
-                (condition_statement))
-              (statement
-                (condition_statement))
               (statement
                 (condition_statement
                   (map
@@ -9049,17 +8189,9 @@ grand_captain = {
         (comment)
         (comment)
         (statement
-          (simple_value
-            (identifier)))
-        (statement
-          (condition_statement))
-        (statement
-          (condition_statement
+          (assignment
+            (identifier)
             (map
-              (statement
-                (condition_statement))
-              (statement
-                (condition_statement))
               (statement
                 (condition_statement
                   (map
@@ -9086,10 +8218,6 @@ grand_captain = {
             (identifier)
             (map
               (statement
-                (condition_statement))
-              (statement
-                (condition_statement))
-              (statement
                 (condition_statement
                   (map
                     (statement
@@ -9113,12 +8241,8 @@ grand_captain = {
         (comment)
         (comment)
         (statement
-          (simple_value
-            (identifier)))
-        (statement
-          (condition_statement))
-        (statement
-          (condition_statement
+          (assignment
+            (identifier)
             (map
               (statement
                 (assignment
@@ -9175,12 +8299,8 @@ grand_captain = {
                     (number))))))))))
   (comment)
   (statement
-    (simple_value
-      (identifier)))
-  (statement
-    (condition_statement))
-  (statement
-    (condition_statement
+    (assignment
+      (identifier)
       (map
         (statement
           (assignment
@@ -9191,10 +8311,6 @@ grand_captain = {
           (assignment
             (identifier)
             (map
-              (statement
-                (condition_statement))
-              (statement
-                (condition_statement))
               (statement
                 (condition_statement
                   (map
@@ -9229,10 +8345,6 @@ grand_captain = {
             (identifier)
             (map
               (statement
-                (condition_statement))
-              (statement
-                (condition_statement))
-              (statement
                 (condition_statement
                   (map
                     (statement
@@ -9255,21 +8367,14 @@ grand_captain = {
                           (number))))))))))
         (comment)
         (statement
-          (simple_value
-            (identifier)))
-        (statement
-          (condition_statement))
-        (statement
-          (simple_value
-            (number)))
+          (assignment
+            (identifier)
+            (simple_value
+              (number))))
         (statement
           (assignment
             (identifier)
             (map
-              (statement
-                (condition_statement))
-              (statement
-                (condition_statement))
               (statement
                 (condition_statement
                   (map
@@ -9296,10 +8401,6 @@ grand_captain = {
             (identifier)
             (map
               (statement
-                (condition_statement))
-              (statement
-                (condition_statement))
-              (statement
                 (condition_statement
                   (map
                     (statement
@@ -9324,10 +8425,6 @@ grand_captain = {
           (assignment
             (identifier)
             (map
-              (statement
-                (condition_statement))
-              (statement
-                (condition_statement))
               (statement
                 (condition_statement
                   (map
@@ -9353,10 +8450,6 @@ grand_captain = {
           (assignment
             (identifier)
             (map
-              (statement
-                (condition_statement))
-              (statement
-                (condition_statement))
               (statement
                 (condition_statement
                   (map
@@ -9388,9 +8481,30 @@ grand_captain = {
             (identifier)
             (map
               (statement
-                (condition_statement))
+                (condition_statement
+                  (map
+                    (statement
+                      (assignment
+                        (identifier)
+                        (map
+                          (statement
+                            (assignment
+                              (identifier)
+                              (simple_value
+                                (identifier))))))))))
               (statement
-                (condition_statement))
+                (assignment
+                  (identifier)
+                  (map
+                    (statement
+                      (assignment
+                        (identifier)
+                        (simple_value
+                          (number))))))))))
+        (statement
+          (assignment
+            (identifier)
+            (map
               (statement
                 (condition_statement
                   (map
@@ -9417,10 +8531,6 @@ grand_captain = {
             (identifier)
             (map
               (statement
-                (condition_statement))
-              (statement
-                (condition_statement))
-              (statement
                 (condition_statement
                   (map
                     (statement
@@ -9441,15 +8551,13 @@ grand_captain = {
                         (identifier)
                         (simple_value
                           (number))))))))))
+        (comment)
+        (comment)
         (statement
           (assignment
             (identifier)
             (map
               (statement
-                (condition_statement))
-              (statement
-                (condition_statement))
-              (statement
                 (condition_statement
                   (map
                     (statement
@@ -9473,47 +8581,8 @@ grand_captain = {
         (comment)
         (comment)
         (statement
-          (simple_value
-            (identifier)))
-        (statement
-          (condition_statement))
-        (statement
-          (condition_statement
-            (map
-              (statement
-                (condition_statement))
-              (statement
-                (condition_statement))
-              (statement
-                (condition_statement
-                  (map
-                    (statement
-                      (assignment
-                        (identifier)
-                        (map
-                          (statement
-                            (assignment
-                              (identifier)
-                              (simple_value
-                                (identifier))))))))))
-              (statement
-                (assignment
-                  (identifier)
-                  (map
-                    (statement
-                      (assignment
-                        (identifier)
-                        (simple_value
-                          (number))))))))))
-        (comment)
-        (comment)
-        (statement
-          (simple_value
-            (identifier)))
-        (statement
-          (condition_statement))
-        (statement
-          (condition_statement
+          (assignment
+            (identifier)
             (map
               (statement
                 (assignment
@@ -9531,12 +8600,8 @@ grand_captain = {
                     (number))))))))))
   (comment)
   (statement
-    (simple_value
-      (identifier)))
-  (statement
-    (condition_statement))
-  (statement
-    (condition_statement
+    (assignment
+      (identifier)
       (map
         (statement
           (assignment
@@ -9547,10 +8612,6 @@ grand_captain = {
           (assignment
             (identifier)
             (map
-              (statement
-                (condition_statement))
-              (statement
-                (condition_statement))
               (statement
                 (condition_statement
                   (map
@@ -9585,10 +8646,6 @@ grand_captain = {
             (identifier)
             (map
               (statement
-                (condition_statement))
-              (statement
-                (condition_statement))
-              (statement
                 (condition_statement
                   (map
                     (statement
@@ -9611,21 +8668,14 @@ grand_captain = {
                           (number))))))))))
         (comment)
         (statement
-          (simple_value
-            (identifier)))
-        (statement
-          (condition_statement))
-        (statement
-          (simple_value
-            (number)))
+          (assignment
+            (identifier)
+            (simple_value
+              (number))))
         (statement
           (assignment
             (identifier)
             (map
-              (statement
-                (condition_statement))
-              (statement
-                (condition_statement))
               (statement
                 (condition_statement
                   (map
@@ -9652,10 +8702,6 @@ grand_captain = {
             (identifier)
             (map
               (statement
-                (condition_statement))
-              (statement
-                (condition_statement))
-              (statement
                 (condition_statement
                   (map
                     (statement
@@ -9680,10 +8726,6 @@ grand_captain = {
           (assignment
             (identifier)
             (map
-              (statement
-                (condition_statement))
-              (statement
-                (condition_statement))
               (statement
                 (condition_statement
                   (map
@@ -9709,10 +8751,6 @@ grand_captain = {
           (assignment
             (identifier)
             (map
-              (statement
-                (condition_statement))
-              (statement
-                (condition_statement))
               (statement
                 (condition_statement
                   (map
@@ -9742,17 +8780,9 @@ grand_captain = {
         (comment)
         (comment)
         (statement
-          (simple_value
-            (identifier)))
-        (statement
-          (condition_statement))
-        (statement
-          (condition_statement
+          (assignment
+            (identifier)
             (map
-              (statement
-                (condition_statement))
-              (statement
-                (condition_statement))
               (statement
                 (condition_statement
                   (map
@@ -9777,12 +8807,8 @@ grand_captain = {
         (comment)
         (comment)
         (statement
-          (simple_value
-            (identifier)))
-        (statement
-          (condition_statement))
-        (statement
-          (condition_statement
+          (assignment
+            (identifier)
             (map
               (statement
                 (assignment
@@ -9824,12 +8850,8 @@ grand_captain = {
   (comment)
   (comment)
   (statement
-    (simple_value
-      (identifier)))
-  (statement
-    (condition_statement))
-  (statement
-    (condition_statement
+    (assignment
+      (identifier)
       (map
         (statement
           (assignment
@@ -9840,10 +8862,6 @@ grand_captain = {
           (assignment
             (identifier)
             (map
-              (statement
-                (condition_statement))
-              (statement
-                (condition_statement))
               (statement
                 (condition_statement
                   (map
@@ -9878,10 +8896,6 @@ grand_captain = {
             (identifier)
             (map
               (statement
-                (condition_statement))
-              (statement
-                (condition_statement))
-              (statement
                 (condition_statement
                   (map
                     (statement
@@ -9904,21 +8918,14 @@ grand_captain = {
                           (number))))))))))
         (comment)
         (statement
-          (simple_value
-            (identifier)))
-        (statement
-          (condition_statement))
-        (statement
-          (simple_value
-            (number)))
+          (assignment
+            (identifier)
+            (simple_value
+              (number))))
         (statement
           (assignment
             (identifier)
             (map
-              (statement
-                (condition_statement))
-              (statement
-                (condition_statement))
               (statement
                 (condition_statement
                   (map
@@ -9950,10 +8957,6 @@ grand_captain = {
             (identifier)
             (map
               (statement
-                (condition_statement))
-              (statement
-                (condition_statement))
-              (statement
                 (condition_statement
                   (map
                     (statement
@@ -9979,10 +8982,6 @@ grand_captain = {
             (identifier)
             (map
               (statement
-                (condition_statement))
-              (statement
-                (condition_statement))
-              (statement
                 (condition_statement
                   (map
                     (statement
@@ -10008,10 +9007,6 @@ grand_captain = {
             (identifier)
             (map
               (statement
-                (condition_statement))
-              (statement
-                (condition_statement))
-              (statement
                 (condition_statement
                   (map
                     (statement
@@ -10035,18 +9030,10 @@ grand_captain = {
         (comment)
         (comment)
         (statement
-          (simple_value
-            (identifier)))
-        (statement
-          (condition_statement))
-        (statement
-          (condition_statement
+          (assignment
+            (identifier)
             (map
               (statement
-                (condition_statement))
-              (statement
-                (condition_statement))
-              (statement
                 (condition_statement
                   (map
                     (statement
@@ -10070,12 +9057,8 @@ grand_captain = {
         (comment)
         (comment)
         (statement
-          (simple_value
-            (identifier)))
-        (statement
-          (condition_statement))
-        (statement
-          (condition_statement
+          (assignment
+            (identifier)
             (map
               (statement
                 (assignment
@@ -10093,12 +9076,8 @@ grand_captain = {
                     (number))))))))))
   (comment)
   (statement
-    (simple_value
-      (identifier)))
-  (statement
-    (condition_statement))
-  (statement
-    (condition_statement
+    (assignment
+      (identifier)
       (map
         (statement
           (assignment
@@ -10109,10 +9088,6 @@ grand_captain = {
           (assignment
             (identifier)
             (map
-              (statement
-                (condition_statement))
-              (statement
-                (condition_statement))
               (statement
                 (condition_statement
                   (map
@@ -10147,10 +9122,6 @@ grand_captain = {
             (identifier)
             (map
               (statement
-                (condition_statement))
-              (statement
-                (condition_statement))
-              (statement
                 (condition_statement
                   (map
                     (statement
@@ -10173,21 +9144,14 @@ grand_captain = {
                           (number))))))))))
         (comment)
         (statement
-          (simple_value
-            (identifier)))
-        (statement
-          (condition_statement))
-        (statement
-          (simple_value
-            (number)))
+          (assignment
+            (identifier)
+            (simple_value
+              (number))))
         (statement
           (assignment
             (identifier)
             (map
-              (statement
-                (condition_statement))
-              (statement
-                (condition_statement))
               (statement
                 (condition_statement
                   (map
@@ -10214,10 +9178,6 @@ grand_captain = {
             (identifier)
             (map
               (statement
-                (condition_statement))
-              (statement
-                (condition_statement))
-              (statement
                 (condition_statement
                   (map
                     (statement
@@ -10242,10 +9202,6 @@ grand_captain = {
           (assignment
             (identifier)
             (map
-              (statement
-                (condition_statement))
-              (statement
-                (condition_statement))
               (statement
                 (condition_statement
                   (map
@@ -10277,10 +9233,6 @@ grand_captain = {
             (identifier)
             (map
               (statement
-                (condition_statement))
-              (statement
-                (condition_statement))
-              (statement
                 (condition_statement
                   (map
                     (statement
@@ -10306,10 +9258,6 @@ grand_captain = {
             (identifier)
             (map
               (statement
-                (condition_statement))
-              (statement
-                (condition_statement))
-              (statement
                 (condition_statement
                   (map
                     (statement
@@ -10334,10 +9282,6 @@ grand_captain = {
           (assignment
             (identifier)
             (map
-              (statement
-                (condition_statement))
-              (statement
-                (condition_statement))
               (statement
                 (condition_statement
                   (map
@@ -10362,17 +9306,9 @@ grand_captain = {
         (comment)
         (comment)
         (statement
-          (simple_value
-            (identifier)))
-        (statement
-          (condition_statement))
-        (statement
-          (condition_statement
+          (assignment
+            (identifier)
             (map
-              (statement
-                (condition_statement))
-              (statement
-                (condition_statement))
               (statement
                 (condition_statement
                   (map
@@ -10399,10 +9335,6 @@ grand_captain = {
             (identifier)
             (map
               (statement
-                (condition_statement))
-              (statement
-                (condition_statement))
-              (statement
                 (condition_statement
                   (map
                     (statement
@@ -10426,12 +9358,8 @@ grand_captain = {
         (comment)
         (comment)
         (statement
-          (simple_value
-            (identifier)))
-        (statement
-          (condition_statement))
-        (statement
-          (condition_statement
+          (assignment
+            (identifier)
             (map
               (statement
                 (assignment
@@ -10449,12 +9377,8 @@ grand_captain = {
                     (number))))))))))
   (comment)
   (statement
-    (simple_value
-      (identifier)))
-  (statement
-    (condition_statement))
-  (statement
-    (condition_statement
+    (assignment
+      (identifier)
       (map
         (statement
           (assignment
@@ -10465,10 +9389,6 @@ grand_captain = {
           (assignment
             (identifier)
             (map
-              (statement
-                (condition_statement))
-              (statement
-                (condition_statement))
               (statement
                 (condition_statement
                   (map
@@ -10503,10 +9423,6 @@ grand_captain = {
             (identifier)
             (map
               (statement
-                (condition_statement))
-              (statement
-                (condition_statement))
-              (statement
                 (condition_statement
                   (map
                     (statement
@@ -10531,10 +9447,6 @@ grand_captain = {
           (assignment
             (identifier)
             (map
-              (statement
-                (condition_statement))
-              (statement
-                (condition_statement))
               (statement
                 (condition_statement
                   (map
@@ -10558,21 +9470,14 @@ grand_captain = {
                           (number))))))))))
         (comment)
         (statement
-          (simple_value
-            (identifier)))
-        (statement
-          (condition_statement))
-        (statement
-          (simple_value
-            (number)))
+          (assignment
+            (identifier)
+            (simple_value
+              (number))))
         (statement
           (assignment
             (identifier)
             (map
-              (statement
-                (condition_statement))
-              (statement
-                (condition_statement))
               (statement
                 (condition_statement
                   (map
@@ -10604,10 +9509,6 @@ grand_captain = {
             (identifier)
             (map
               (statement
-                (condition_statement))
-              (statement
-                (condition_statement))
-              (statement
                 (condition_statement
                   (map
                     (statement
@@ -10633,10 +9534,6 @@ grand_captain = {
             (identifier)
             (map
               (statement
-                (condition_statement))
-              (statement
-                (condition_statement))
-              (statement
                 (condition_statement
                   (map
                     (statement
@@ -10660,18 +9557,10 @@ grand_captain = {
         (comment)
         (comment)
         (statement
-          (simple_value
-            (identifier)))
-        (statement
-          (condition_statement))
-        (statement
-          (condition_statement
+          (assignment
+            (identifier)
             (map
               (statement
-                (condition_statement))
-              (statement
-                (condition_statement))
-              (statement
                 (condition_statement
                   (map
                     (statement
@@ -10695,12 +9584,8 @@ grand_captain = {
         (comment)
         (comment)
         (statement
-          (simple_value
-            (identifier)))
-        (statement
-          (condition_statement))
-        (statement
-          (condition_statement
+          (assignment
+            (identifier)
             (map
               (statement
                 (assignment
@@ -10718,12 +9603,8 @@ grand_captain = {
                     (number))))))))))
   (comment)
   (statement
-    (simple_value
-      (identifier)))
-  (statement
-    (condition_statement))
-  (statement
-    (condition_statement
+    (assignment
+      (identifier)
       (map
         (statement
           (assignment
@@ -10734,10 +9615,6 @@ grand_captain = {
           (assignment
             (identifier)
             (map
-              (statement
-                (condition_statement))
-              (statement
-                (condition_statement))
               (statement
                 (condition_statement
                   (map
@@ -10772,10 +9649,6 @@ grand_captain = {
             (identifier)
             (map
               (statement
-                (condition_statement))
-              (statement
-                (condition_statement))
-              (statement
                 (condition_statement
                   (map
                     (statement
@@ -10798,21 +9671,14 @@ grand_captain = {
                           (number))))))))))
         (comment)
         (statement
-          (simple_value
-            (identifier)))
-        (statement
-          (condition_statement))
-        (statement
-          (simple_value
-            (number)))
+          (assignment
+            (identifier)
+            (simple_value
+              (number))))
         (statement
           (assignment
             (identifier)
             (map
-              (statement
-                (condition_statement))
-              (statement
-                (condition_statement))
               (statement
                 (condition_statement
                   (map
@@ -10844,10 +9710,6 @@ grand_captain = {
             (identifier)
             (map
               (statement
-                (condition_statement))
-              (statement
-                (condition_statement))
-              (statement
                 (condition_statement
                   (map
                     (statement
@@ -10873,10 +9735,6 @@ grand_captain = {
             (identifier)
             (map
               (statement
-                (condition_statement))
-              (statement
-                (condition_statement))
-              (statement
                 (condition_statement
                   (map
                     (statement
@@ -10901,10 +9759,6 @@ grand_captain = {
           (assignment
             (identifier)
             (map
-              (statement
-                (condition_statement))
-              (statement
-                (condition_statement))
               (statement
                 (condition_statement
                   (map
@@ -10929,17 +9783,9 @@ grand_captain = {
         (comment)
         (comment)
         (statement
-          (simple_value
-            (identifier)))
-        (statement
-          (condition_statement))
-        (statement
-          (condition_statement
+          (assignment
+            (identifier)
             (map
-              (statement
-                (condition_statement))
-              (statement
-                (condition_statement))
               (statement
                 (condition_statement
                   (map
@@ -10966,10 +9812,6 @@ grand_captain = {
             (identifier)
             (map
               (statement
-                (condition_statement))
-              (statement
-                (condition_statement))
-              (statement
                 (condition_statement
                   (map
                     (statement
@@ -10993,12 +9835,8 @@ grand_captain = {
         (comment)
         (comment)
         (statement
-          (simple_value
-            (identifier)))
-        (statement
-          (condition_statement))
-        (statement
-          (condition_statement
+          (assignment
+            (identifier)
             (map
               (statement
                 (assignment
@@ -11030,12 +9868,8 @@ grand_captain = {
                           (boolean)))))))))))))
   (comment)
   (statement
-    (simple_value
-      (identifier)))
-  (statement
-    (condition_statement))
-  (statement
-    (condition_statement
+    (assignment
+      (identifier)
       (map
         (statement
           (assignment
@@ -11046,10 +9880,6 @@ grand_captain = {
           (assignment
             (identifier)
             (map
-              (statement
-                (condition_statement))
-              (statement
-                (condition_statement))
               (statement
                 (condition_statement
                   (map
@@ -11084,10 +9914,6 @@ grand_captain = {
             (identifier)
             (map
               (statement
-                (condition_statement))
-              (statement
-                (condition_statement))
-              (statement
                 (condition_statement
                   (map
                     (statement
@@ -11110,21 +9936,14 @@ grand_captain = {
                           (number))))))))))
         (comment)
         (statement
-          (simple_value
-            (identifier)))
-        (statement
-          (condition_statement))
-        (statement
-          (simple_value
-            (number)))
+          (assignment
+            (identifier)
+            (simple_value
+              (number))))
         (statement
           (assignment
             (identifier)
             (map
-              (statement
-                (condition_statement))
-              (statement
-                (condition_statement))
               (statement
                 (condition_statement
                   (map
@@ -11156,10 +9975,6 @@ grand_captain = {
             (identifier)
             (map
               (statement
-                (condition_statement))
-              (statement
-                (condition_statement))
-              (statement
                 (condition_statement
                   (map
                     (statement
@@ -11185,10 +10000,6 @@ grand_captain = {
             (identifier)
             (map
               (statement
-                (condition_statement))
-              (statement
-                (condition_statement))
-              (statement
                 (condition_statement
                   (map
                     (statement
@@ -11214,10 +10025,6 @@ grand_captain = {
             (identifier)
             (map
               (statement
-                (condition_statement))
-              (statement
-                (condition_statement))
-              (statement
                 (condition_statement
                   (map
                     (statement
@@ -11241,17 +10048,9 @@ grand_captain = {
         (comment)
         (comment)
         (statement
-          (simple_value
-            (identifier)))
-        (statement
-          (condition_statement))
-        (statement
-          (condition_statement
+          (assignment
+            (identifier)
             (map
-              (statement
-                (condition_statement))
-              (statement
-                (condition_statement))
               (statement
                 (condition_statement
                   (map
@@ -11276,12 +10075,8 @@ grand_captain = {
         (comment)
         (comment)
         (statement
-          (simple_value
-            (identifier)))
-        (statement
-          (condition_statement))
-        (statement
-          (condition_statement
+          (assignment
+            (identifier)
             (map
               (statement
                 (assignment
@@ -11313,12 +10108,8 @@ grand_captain = {
                           (boolean)))))))))))))
   (comment)
   (statement
-    (simple_value
-      (identifier)))
-  (statement
-    (condition_statement))
-  (statement
-    (condition_statement
+    (assignment
+      (identifier)
       (map
         (statement
           (assignment
@@ -11329,10 +10120,6 @@ grand_captain = {
           (assignment
             (identifier)
             (map
-              (statement
-                (condition_statement))
-              (statement
-                (condition_statement))
               (statement
                 (condition_statement
                   (map
@@ -11367,10 +10154,6 @@ grand_captain = {
             (identifier)
             (map
               (statement
-                (condition_statement))
-              (statement
-                (condition_statement))
-              (statement
                 (condition_statement
                   (map
                     (statement
@@ -11393,21 +10176,14 @@ grand_captain = {
                           (number))))))))))
         (comment)
         (statement
-          (simple_value
-            (identifier)))
-        (statement
-          (condition_statement))
-        (statement
-          (simple_value
-            (number)))
+          (assignment
+            (identifier)
+            (simple_value
+              (number))))
         (statement
           (assignment
             (identifier)
             (map
-              (statement
-                (condition_statement))
-              (statement
-                (condition_statement))
               (statement
                 (condition_statement
                   (map
@@ -11439,10 +10215,6 @@ grand_captain = {
             (identifier)
             (map
               (statement
-                (condition_statement))
-              (statement
-                (condition_statement))
-              (statement
                 (condition_statement
                   (map
                     (statement
@@ -11468,9 +10240,57 @@ grand_captain = {
             (identifier)
             (map
               (statement
-                (condition_statement))
+                (condition_statement
+                  (map
+                    (statement
+                      (assignment
+                        (identifier)
+                        (map
+                          (statement
+                            (assignment
+                              (identifier)
+                              (simple_value
+                                (identifier))))))))))
               (statement
-                (condition_statement))
+                (assignment
+                  (identifier)
+                  (map
+                    (statement
+                      (assignment
+                        (identifier)
+                        (simple_value
+                          (number))))))))))
+        (statement
+          (assignment
+            (identifier)
+            (map
+              (statement
+                (condition_statement
+                  (map
+                    (statement
+                      (assignment
+                        (identifier)
+                        (map
+                          (statement
+                            (assignment
+                              (identifier)
+                              (simple_value
+                                (identifier))))))))))
+              (statement
+                (assignment
+                  (identifier)
+                  (map
+                    (statement
+                      (assignment
+                        (identifier)
+                        (simple_value
+                          (number))))))))))
+        (comment)
+        (comment)
+        (statement
+          (assignment
+            (identifier)
+            (map
               (statement
                 (condition_statement
                   (map
@@ -11497,10 +10317,6 @@ grand_captain = {
             (identifier)
             (map
               (statement
-                (condition_statement))
-              (statement
-                (condition_statement))
-              (statement
                 (condition_statement
                   (map
                     (statement
@@ -11523,77 +10339,9 @@ grand_captain = {
                           (number))))))))))
         (comment)
         (comment)
-        (statement
-          (simple_value
-            (identifier)))
-        (statement
-          (condition_statement))
-        (statement
-          (condition_statement
-            (map
-              (statement
-                (condition_statement))
-              (statement
-                (condition_statement))
-              (statement
-                (condition_statement
-                  (map
-                    (statement
-                      (assignment
-                        (identifier)
-                        (map
-                          (statement
-                            (assignment
-                              (identifier)
-                              (simple_value
-                                (identifier))))))))))
-              (statement
-                (assignment
-                  (identifier)
-                  (map
-                    (statement
-                      (assignment
-                        (identifier)
-                        (simple_value
-                          (number))))))))))
         (statement
           (assignment
             (identifier)
-            (map
-              (statement
-                (condition_statement))
-              (statement
-                (condition_statement))
-              (statement
-                (condition_statement
-                  (map
-                    (statement
-                      (assignment
-                        (identifier)
-                        (map
-                          (statement
-                            (assignment
-                              (identifier)
-                              (simple_value
-                                (identifier))))))))))
-              (statement
-                (assignment
-                  (identifier)
-                  (map
-                    (statement
-                      (assignment
-                        (identifier)
-                        (simple_value
-                          (number))))))))))
-        (comment)
-        (comment)
-        (statement
-          (simple_value
-            (identifier)))
-        (statement
-          (condition_statement))
-        (statement
-          (condition_statement
             (map
               (statement
                 (assignment
@@ -11611,12 +10359,8 @@ grand_captain = {
                     (number))))))))))
   (comment)
   (statement
-    (simple_value
-      (identifier)))
-  (statement
-    (condition_statement))
-  (statement
-    (condition_statement
+    (assignment
+      (identifier)
       (map
         (statement
           (assignment
@@ -11627,10 +10371,6 @@ grand_captain = {
           (assignment
             (identifier)
             (map
-              (statement
-                (condition_statement))
-              (statement
-                (condition_statement))
               (statement
                 (condition_statement
                   (map
@@ -11665,10 +10405,6 @@ grand_captain = {
             (identifier)
             (map
               (statement
-                (condition_statement))
-              (statement
-                (condition_statement))
-              (statement
                 (condition_statement
                   (map
                     (statement
@@ -11691,21 +10427,14 @@ grand_captain = {
                           (number))))))))))
         (comment)
         (statement
-          (simple_value
-            (identifier)))
-        (statement
-          (condition_statement))
-        (statement
-          (simple_value
-            (number)))
+          (assignment
+            (identifier)
+            (simple_value
+              (number))))
         (statement
           (assignment
             (identifier)
             (map
-              (statement
-                (condition_statement))
-              (statement
-                (condition_statement))
               (statement
                 (condition_statement
                   (map
@@ -11737,10 +10466,6 @@ grand_captain = {
             (identifier)
             (map
               (statement
-                (condition_statement))
-              (statement
-                (condition_statement))
-              (statement
                 (condition_statement
                   (map
                     (statement
@@ -11766,10 +10491,6 @@ grand_captain = {
             (identifier)
             (map
               (statement
-                (condition_statement))
-              (statement
-                (condition_statement))
-              (statement
                 (condition_statement
                   (map
                     (statement
@@ -11793,18 +10514,10 @@ grand_captain = {
         (comment)
         (comment)
         (statement
-          (simple_value
-            (identifier)))
-        (statement
-          (condition_statement))
-        (statement
-          (condition_statement
+          (assignment
+            (identifier)
             (map
               (statement
-                (condition_statement))
-              (statement
-                (condition_statement))
-              (statement
                 (condition_statement
                   (map
                     (statement
@@ -11828,12 +10541,8 @@ grand_captain = {
         (comment)
         (comment)
         (statement
-          (simple_value
-            (identifier)))
-        (statement
-          (condition_statement))
-        (statement
-          (condition_statement
+          (assignment
+            (identifier)
             (map
               (statement
                 (assignment

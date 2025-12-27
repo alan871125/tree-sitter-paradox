@@ -321,10 +321,6 @@ danish_missions_baltic = {
             (simple_value
               (boolean))))
         (statement
-          (condition_statement))
-        (statement
-          (condition_statement))
-        (statement
           (condition_statement
             (map
               (statement
@@ -407,10 +403,6 @@ danish_missions_baltic = {
                               (simple_value
                                 (identifier))))))))))
               (statement
-                (condition_statement))
-              (statement
-                (condition_statement))
-              (statement
                 (condition_statement
                   (map
                     (statement
@@ -488,16 +480,8 @@ danish_missions_baltic = {
                               (simple_value
                                 (number)))))))
                     (statement
-                      (condition_statement))
-                    (statement
-                      (condition_statement))
-                    (statement
                       (condition_statement
                         (map
-                          (statement
-                            (condition_statement))
-                          (statement
-                            (condition_statement))
                           (statement
                             (condition_statement
                               (map
@@ -518,9 +502,33 @@ danish_missions_baltic = {
                               (identifier)
                               (map
                                 (statement
-                                  (condition_statement))
+                                  (condition_statement
+                                    (map
+                                      (statement
+                                        (logical_statement
+                                          (map
+                                            (statement
+                                              (assignment
+                                                (identifier)
+                                                (simple_value
+                                                  (identifier)))))))
+                                      (statement
+                                        (logical_statement
+                                          (map
+                                            (statement
+                                              (assignment
+                                                (identifier)
+                                                (simple_value
+                                                  (identifier))))))))))
                                 (statement
-                                  (condition_statement))
+                                  (assignment
+                                    (identifier)
+                                    (simple_value
+                                      (identifier)))))))
+                          (statement
+                            (assignment
+                              (identifier)
+                              (map
                                 (statement
                                   (condition_statement
                                     (map
@@ -550,10 +558,6 @@ danish_missions_baltic = {
                               (identifier)
                               (map
                                 (statement
-                                  (condition_statement))
-                                (statement
-                                  (condition_statement))
-                                (statement
                                   (condition_statement
                                     (map
                                       (statement
@@ -582,10 +586,6 @@ danish_missions_baltic = {
                               (identifier)
                               (map
                                 (statement
-                                  (condition_statement))
-                                (statement
-                                  (condition_statement))
-                                (statement
                                   (condition_statement
                                     (map
                                       (statement
@@ -613,42 +613,6 @@ danish_missions_baltic = {
                             (assignment
                               (identifier)
                               (map
-                                (statement
-                                  (condition_statement))
-                                (statement
-                                  (condition_statement))
-                                (statement
-                                  (condition_statement
-                                    (map
-                                      (statement
-                                        (logical_statement
-                                          (map
-                                            (statement
-                                              (assignment
-                                                (identifier)
-                                                (simple_value
-                                                  (identifier)))))))
-                                      (statement
-                                        (logical_statement
-                                          (map
-                                            (statement
-                                              (assignment
-                                                (identifier)
-                                                (simple_value
-                                                  (identifier))))))))))
-                                (statement
-                                  (assignment
-                                    (identifier)
-                                    (simple_value
-                                      (identifier)))))))
-                          (statement
-                            (assignment
-                              (identifier)
-                              (map
-                                (statement
-                                  (condition_statement))
-                                (statement
-                                  (condition_statement))
                                 (statement
                                   (condition_statement
                                     (map
@@ -748,10 +712,6 @@ danish_missions_baltic = {
                               (simple_value
                                 (identifier))))))))))
               (statement
-                (condition_statement))
-              (statement
-                (condition_statement))
-              (statement
                 (condition_statement
                   (map
                     (statement
@@ -847,10 +807,6 @@ danish_missions_baltic = {
                         (identifier)
                         (map
                           (statement
-                            (condition_statement))
-                          (statement
-                            (condition_statement))
-                          (statement
                             (condition_statement
                               (map
                                 (statement
@@ -904,10 +860,6 @@ danish_missions_baltic = {
             (simple_value
               (boolean))))
         (statement
-          (condition_statement))
-        (statement
-          (condition_statement))
-        (statement
           (condition_statement
             (map
               (statement
@@ -950,10 +902,6 @@ danish_missions_baltic = {
                   (identifier)
                   (map)))
               (statement
-                (condition_statement))
-              (statement
-                (condition_statement))
-              (statement
                 (condition_statement
                   (map
                     (statement
@@ -976,16 +924,8 @@ danish_missions_baltic = {
                         (map
                           (comment)
                           (statement
-                            (condition_statement))
-                          (statement
-                            (condition_statement))
-                          (statement
                             (condition_statement
                               (map
-                                (statement
-                                  (condition_statement))
-                                (statement
-                                  (condition_statement))
                                 (statement
                                   (condition_statement
                                     (map
@@ -1011,10 +951,6 @@ danish_missions_baltic = {
                       (assignment
                         (identifier)
                         (map
-                          (statement
-                            (condition_statement))
-                          (statement
-                            (condition_statement))
                           (statement
                             (condition_statement
                               (map
@@ -1090,10 +1026,6 @@ danish_missions_baltic = {
                               (simple_value
                                 (identifier))))))))))
               (statement
-                (condition_statement))
-              (statement
-                (condition_statement))
-              (statement
                 (condition_statement
                   (map
                     (statement
@@ -1128,16 +1060,8 @@ danish_missions_baltic = {
                         (number)
                         (map
                           (statement
-                            (condition_statement))
-                          (statement
-                            (condition_statement))
-                          (statement
                             (condition_statement
                               (map
-                                (statement
-                                  (condition_statement))
-                                (statement
-                                  (condition_statement))
                                 (statement
                                   (condition_statement
                                     (map
@@ -1164,16 +1088,8 @@ danish_missions_baltic = {
                         (number)
                         (map
                           (statement
-                            (condition_statement))
-                          (statement
-                            (condition_statement))
-                          (statement
                             (condition_statement
                               (map
-                                (statement
-                                  (condition_statement))
-                                (statement
-                                  (condition_statement))
                                 (statement
                                   (condition_statement
                                     (map
@@ -1200,16 +1116,8 @@ danish_missions_baltic = {
                         (number)
                         (map
                           (statement
-                            (condition_statement))
-                          (statement
-                            (condition_statement))
-                          (statement
                             (condition_statement
                               (map
-                                (statement
-                                  (condition_statement))
-                                (statement
-                                  (condition_statement))
                                 (statement
                                   (condition_statement
                                     (map
@@ -1286,10 +1194,6 @@ danish_missions_baltic = {
                               (identifier)
                               (simple_value
                                 (identifier))))))))))
-              (statement
-                (condition_statement))
-              (statement
-                (condition_statement))
               (statement
                 (condition_statement
                   (map

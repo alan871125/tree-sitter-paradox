@@ -1,0 +1,86 @@
+================================================================================
+tagged_array - Color-hsv
+================================================================================
+guan = {
+	color = hsv{ 0.025 0.55 0.7 }
+    
+}
+--------------------------------------------------------------------------------
+(source_file
+    (statement
+        (assignment
+            (identifier)
+                (map
+                    (statement
+                    (assignment
+                        (identifier)
+                        (tagged_array
+                            (identifier)
+                            (array                 
+                                (simple_value (number))
+                                (simple_value (number))
+                                (simple_value (number))
+                            )
+                        )
+                    )
+                )
+            )
+        )
+    )
+)
+================================================================================
+tagged_array - Color-hex
+================================================================================
+obj2 = {
+    color2 = hex{50779b}
+}
+--------------------------------------------------------------------------------
+(source_file
+    (statement
+        (assignment
+            (identifier)
+                (map
+                    (statement
+                    (assignment
+                        (identifier)
+                        (tagged_array
+                            (identifier)
+                            (hex_array
+                                (number)
+                            )
+                        )
+                    )
+                )
+            )
+        )
+    )
+)
+================================================================================
+tagged_array - Camara Position
+================================================================================
+camera = {
+		position = cylindrical{ 350 80 0 }
+}
+--------------------------------------------------------------------------------
+(source_file
+    (statement
+        (assignment
+            (identifier)
+                (map
+                    (statement
+                    (assignment
+                        (identifier)
+                        (tagged_array
+                            (identifier)
+                            (array                 
+                                (simple_value (number))
+                                (simple_value (number))
+                                (simple_value (number))
+                            )
+                        )
+                    )
+                )
+            )
+        )
+    )
+)

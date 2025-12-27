@@ -73,6 +73,10 @@
             "named": true
           },
           {
+            "type": "tagged_array",
+            "named": true
+          },
+          {
             "type": "variable",
             "named": true
           },
@@ -95,10 +99,25 @@
     "fields": {},
     "children": {
       "multiple": false,
-      "required": false,
+      "required": true,
       "types": [
         {
           "type": "map",
+          "named": true
+        }
+      ]
+    }
+  },
+  {
+    "type": "hex_array",
+    "named": true,
+    "fields": {},
+    "children": {
+      "multiple": false,
+      "required": true,
+      "types": [
+        {
+          "type": "number",
           "named": true
         }
       ]
@@ -233,6 +252,10 @@
           "named": true
         },
         {
+          "type": "typed_assignment",
+          "named": true
+        },
+        {
           "type": "variable",
           "named": true
         },
@@ -241,6 +264,77 @@
           "named": true
         }
       ]
+    }
+  },
+  {
+    "type": "tagged_array",
+    "named": true,
+    "fields": {
+      "tag": {
+        "multiple": false,
+        "required": true,
+        "types": [
+          {
+            "type": "identifier",
+            "named": true
+          }
+        ]
+      },
+      "value": {
+        "multiple": false,
+        "required": true,
+        "types": [
+          {
+            "type": "array",
+            "named": true
+          },
+          {
+            "type": "hex_array",
+            "named": true
+          }
+        ]
+      }
+    }
+  },
+  {
+    "type": "type",
+    "named": true,
+    "fields": {}
+  },
+  {
+    "type": "typed_assignment",
+    "named": true,
+    "fields": {
+      "key": {
+        "multiple": false,
+        "required": true,
+        "types": [
+          {
+            "type": "identifier",
+            "named": true
+          }
+        ]
+      },
+      "type": {
+        "multiple": false,
+        "required": true,
+        "types": [
+          {
+            "type": "type",
+            "named": true
+          }
+        ]
+      },
+      "value": {
+        "multiple": false,
+        "required": true,
+        "types": [
+          {
+            "type": "map",
+            "named": true
+          }
+        ]
+      }
     }
   },
   {
@@ -340,6 +434,14 @@
   },
   {
     "type": "potential",
+    "named": false
+  },
+  {
+    "type": "scripted_effect",
+    "named": false
+  },
+  {
+    "type": "scripted_trigger",
     "named": false
   },
   {

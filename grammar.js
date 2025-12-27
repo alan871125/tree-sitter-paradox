@@ -18,12 +18,9 @@ module.exports = grammar({
 		[$.assignment, $.variable_embedded_identifier],
 		[$.simple_value, $.variable_embedded_identifier],
 		[$.variable_embedded_identifier],
-		[$.assignment, $.statement],
 		[$.variable_embedded_identifier, $.statement],
 		[$.array, $.statement],
 		[$.array, $.statement, $.variable_embedded_identifier],
-		[$.assignment, $.simple_value]
-
 	],
 
 	rules: {
@@ -34,8 +31,14 @@ module.exports = grammar({
 		assignment: $ => seq(
 			field("key", choice($.identifier, $.number, $.variable, $.variable_embedded_identifier, $.template_string, $.string)),
 			"=",
-			field("value", choice($.simple_value, $.array, $.map, $.variable, $.variable_embedded_identifier))
+			field("value", choice($.simple_value, $.array, $.tagged_array, $.map, $.variable, $.variable_embedded_identifier))
 		),
+		typed_assignment: $ => prec(2, seq(
+			field("type", $.type),
+			field("key",  $.identifier),
+			"=",
+			field("value", $.map)
+		)),		
 
 		map: $ => seq("{", repeat($.statement), "}"),
 
@@ -43,6 +46,7 @@ module.exports = grammar({
 
 		statement: $ => choice(
 			$.macro_map,
+			$.typed_assignment,
 			$.assignment,
 			$.condition_statement,
 			$.logical_statement,
@@ -50,25 +54,35 @@ module.exports = grammar({
 			$.simple_value
 		),
 
+		// https://pdx.tools/blog/a-tour-of-pds-clausewitz-syntax
+		tagged_array: $ => choice(
+			seq(field("tag",alias("hex", $.identifier)), field("value",$.hex_array)),
+			seq(field("tag",$.identifier), field("value",$.array))
+		),
+
+		hex_array: $ => seq("{", alias(/[0-9a-fA-F]+/, $.number), "}"),
 
 		array: $ => seq("{", repeat(choice($.simple_value, $.variable, $.variable_embedded_identifier)), "}"),
 
+		type: $ => choice( // these are the only types I found that are used
+			"scripted_trigger",
+			"scripted_effect",
+		),
 		simple_value: $ => choice($.string, $.number, $.boolean, $.identifier),
 
 		condition_statement: $ => choice(
-			"if", "=", $.map,
-			"limit", "=", $.map,
-			"trigger", "=", $.map,
-			"potential", "=", $.map,
+			seq("if", "=", $.map),
+			seq("limit", "=", $.map),
+			seq("trigger", "=", $.map),
+			seq("potential", "=", $.map),
 		),
 
-
+		
 		logical_statement: $ => choice(
 			seq("AND", "=", $.map),
 			seq("OR", "=", $.map),
 			seq("NOT", "=", $.map),
 		),
-
 		macro_map: $ => seq(
 			"[[", field("key", $.identifier), "]",
 			repeat($.statement),

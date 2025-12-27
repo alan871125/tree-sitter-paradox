@@ -1,0 +1,36 @@
+
+
+================================================================================
+Scripted Effect
+================================================================================
+scripted_effect yearly_1010_wound_target_effect = {
+	increase_wounds_no_death_effect = {
+		REASON = no
+	}
+}
+--------------------------------------------------------------------------------
+(source_file
+    (statement
+        (typed_assignment
+            (type)
+            (identifier)
+            (map
+                (statement
+                    (assignment
+                        (identifier)
+                        (map
+                            (statement
+                                (assignment
+                                    (identifier)
+                                    (simple_value
+                                        (boolean)
+                                    )
+                                )
+                            )
+                        )
+                    )
+                )
+            )
+        )
+    )
+)

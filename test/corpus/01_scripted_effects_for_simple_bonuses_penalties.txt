@@ -707,16 +707,8 @@ reduce_propagate_religion_requirements = {
       (identifier)
       (map
         (statement
-          (condition_statement))
-        (statement
-          (condition_statement))
-        (statement
           (condition_statement
             (map
-              (statement
-                (condition_statement))
-              (statement
-                (condition_statement))
               (statement
                 (condition_statement
                   (map
@@ -731,16 +723,8 @@ reduce_propagate_religion_requirements = {
                   (simple_value
                     (number)))))))
         (statement
-          (condition_statement))
-        (statement
-          (condition_statement))
-        (statement
           (condition_statement
             (map
-              (statement
-                (condition_statement))
-              (statement
-                (condition_statement))
               (statement
                 (condition_statement
                   (map
@@ -762,16 +746,8 @@ reduce_propagate_religion_requirements = {
       (identifier)
       (map
         (statement
-          (condition_statement))
-        (statement
-          (condition_statement))
-        (statement
           (condition_statement
             (map
-              (statement
-                (condition_statement))
-              (statement
-                (condition_statement))
               (statement
                 (condition_statement
                   (map
@@ -823,15 +799,13 @@ reduce_propagate_religion_requirements = {
                     (statement
                       (assignment
                         (identifier)
-                        (variable_embedded_identifier
-                          (variable
-                            (identifier))
+                        (variable
                           (identifier))))
                     (statement
-                      (condition_statement))
-                    (statement
-                      (simple_value
-                        (string))))))))))))
+                      (assignment
+                        (identifier)
+                        (simple_value
+                          (string)))))))))))))
   (statement
     (assignment
       (identifier)
@@ -843,15 +817,13 @@ reduce_propagate_religion_requirements = {
               (statement
                 (assignment
                   (identifier)
-                  (variable_embedded_identifier
-                    (variable
-                      (identifier))
+                  (variable
                     (identifier))))
               (statement
-                (condition_statement))
-              (statement
-                (variable
-                  (identifier))))))
+                (assignment
+                  (identifier)
+                  (variable
+                    (identifier)))))))
         (statement
           (assignment
             (identifier)
@@ -860,12 +832,8 @@ reduce_propagate_religion_requirements = {
   (comment)
   (comment)
   (statement
-    (simple_value
-      (identifier)))
-  (statement
-    (condition_statement))
-  (statement
-    (condition_statement
+    (assignment
+      (identifier)
       (map
         (statement
           (assignment
@@ -1040,12 +1008,8 @@ reduce_propagate_religion_requirements = {
   (comment)
   (comment)
   (statement
-    (simple_value
-      (identifier)))
-  (statement
-    (condition_statement))
-  (statement
-    (condition_statement
+    (assignment
+      (identifier)
       (map
         (statement
           (assignment
@@ -1113,24 +1077,12 @@ reduce_propagate_religion_requirements = {
               (number)))))))
   (comment)
   (statement
-    (simple_value
-      (identifier)))
-  (statement
-    (condition_statement))
-  (statement
-    (condition_statement
+    (assignment
+      (identifier)
       (map
-        (statement
-          (condition_statement))
-        (statement
-          (condition_statement))
         (statement
           (condition_statement
             (map
-              (statement
-                (condition_statement))
-              (statement
-                (condition_statement))
               (statement
                 (condition_statement
                   (map
@@ -1149,16 +1101,8 @@ reduce_propagate_religion_requirements = {
       (identifier)
       (map
         (statement
-          (condition_statement))
-        (statement
-          (condition_statement))
-        (statement
           (condition_statement
             (map
-              (statement
-                (condition_statement))
-              (statement
-                (condition_statement))
               (statement
                 (condition_statement
                   (map
@@ -1177,16 +1121,8 @@ reduce_propagate_religion_requirements = {
       (identifier)
       (map
         (statement
-          (condition_statement))
-        (statement
-          (condition_statement))
-        (statement
           (condition_statement
             (map
-              (statement
-                (condition_statement))
-              (statement
-                (condition_statement))
               (statement
                 (condition_statement
                   (map
@@ -1205,16 +1141,8 @@ reduce_propagate_religion_requirements = {
       (identifier)
       (map
         (statement
-          (condition_statement))
-        (statement
-          (condition_statement))
-        (statement
           (condition_statement
             (map
-              (statement
-                (condition_statement))
-              (statement
-                (condition_statement))
               (statement
                 (condition_statement
                   (map
@@ -1231,25 +1159,13 @@ reduce_propagate_religion_requirements = {
   (comment)
   (comment)
   (statement
-    (simple_value
-      (identifier)))
-  (statement
-    (condition_statement))
-  (statement
-    (condition_statement
+    (assignment
+      (identifier)
       (map
         (comment)
         (statement
-          (condition_statement))
-        (statement
-          (condition_statement))
-        (statement
           (condition_statement
             (map
-              (statement
-                (condition_statement))
-              (statement
-                (condition_statement))
               (statement
                 (condition_statement
                   (map
@@ -1304,17 +1220,9 @@ reduce_propagate_religion_requirements = {
               (variable
                 (identifier)))))
         (statement
-          (condition_statement))
-        (statement
-          (condition_statement))
-        (statement
           (condition_statement
             (map
               (statement
-                (condition_statement))
-              (statement
-                (condition_statement))
-              (statement
                 (condition_statement
                   (map
                     (statement
@@ -1334,10 +1242,6 @@ reduce_propagate_religion_requirements = {
             (identifier)
             (map
               (statement
-                (condition_statement))
-              (statement
-                (condition_statement))
-              (statement
                 (condition_statement
                   (map
                     (statement
@@ -1356,10 +1260,6 @@ reduce_propagate_religion_requirements = {
           (assignment
             (identifier)
             (map
-              (statement
-                (condition_statement))
-              (statement
-                (condition_statement))
               (statement
                 (condition_statement
                   (map
@@ -1432,16 +1332,8 @@ reduce_propagate_religion_requirements = {
       (identifier)
       (map
         (statement
-          (condition_statement))
-        (statement
-          (condition_statement))
-        (statement
           (condition_statement
             (map
-              (statement
-                (condition_statement))
-              (statement
-                (condition_statement))
               (statement
                 (condition_statement
                   (map
@@ -1460,16 +1352,8 @@ reduce_propagate_religion_requirements = {
       (identifier)
       (map
         (statement
-          (condition_statement))
-        (statement
-          (condition_statement))
-        (statement
           (condition_statement
             (map
-              (statement
-                (condition_statement))
-              (statement
-                (condition_statement))
               (statement
                 (condition_statement
                   (map
@@ -1488,16 +1372,8 @@ reduce_propagate_religion_requirements = {
       (identifier)
       (map
         (statement
-          (condition_statement))
-        (statement
-          (condition_statement))
-        (statement
           (condition_statement
             (map
-              (statement
-                (condition_statement))
-              (statement
-                (condition_statement))
               (statement
                 (condition_statement
                   (map
@@ -1516,16 +1392,8 @@ reduce_propagate_religion_requirements = {
       (identifier)
       (map
         (statement
-          (condition_statement))
-        (statement
-          (condition_statement))
-        (statement
           (condition_statement
             (map
-              (statement
-                (condition_statement))
-              (statement
-                (condition_statement))
               (statement
                 (condition_statement
                   (map
@@ -1544,16 +1412,8 @@ reduce_propagate_religion_requirements = {
       (identifier)
       (map
         (statement
-          (condition_statement))
-        (statement
-          (condition_statement))
-        (statement
           (condition_statement
             (map
-              (statement
-                (condition_statement))
-              (statement
-                (condition_statement))
               (statement
                 (condition_statement
                   (map
@@ -1572,16 +1432,8 @@ reduce_propagate_religion_requirements = {
       (identifier)
       (map
         (statement
-          (condition_statement))
-        (statement
-          (condition_statement))
-        (statement
           (condition_statement
             (map
-              (statement
-                (condition_statement))
-              (statement
-                (condition_statement))
               (statement
                 (condition_statement
                   (map
@@ -1600,16 +1452,8 @@ reduce_propagate_religion_requirements = {
       (identifier)
       (map
         (statement
-          (condition_statement))
-        (statement
-          (condition_statement))
-        (statement
           (condition_statement
             (map
-              (statement
-                (condition_statement))
-              (statement
-                (condition_statement))
               (statement
                 (condition_statement
                   (map
@@ -1628,16 +1472,8 @@ reduce_propagate_religion_requirements = {
       (identifier)
       (map
         (statement
-          (condition_statement))
-        (statement
-          (condition_statement))
-        (statement
           (condition_statement
             (map
-              (statement
-                (condition_statement))
-              (statement
-                (condition_statement))
               (statement
                 (condition_statement
                   (map
@@ -1657,16 +1493,8 @@ reduce_propagate_religion_requirements = {
                   (simple_value
                     (identifier)))))))
         (statement
-          (condition_statement))
-        (statement
-          (condition_statement))
-        (statement
           (condition_statement
             (map
-              (statement
-                (condition_statement))
-              (statement
-                (condition_statement))
               (statement
                 (condition_statement
                   (map
@@ -1681,16 +1509,8 @@ reduce_propagate_religion_requirements = {
                   (simple_value
                     (identifier)))))))
         (statement
-          (condition_statement))
-        (statement
-          (condition_statement))
-        (statement
           (condition_statement
             (map
-              (statement
-                (condition_statement))
-              (statement
-                (condition_statement))
               (statement
                 (condition_statement
                   (map
@@ -1705,16 +1525,8 @@ reduce_propagate_religion_requirements = {
                   (simple_value
                     (identifier)))))))
         (statement
-          (condition_statement))
-        (statement
-          (condition_statement))
-        (statement
           (condition_statement
             (map
-              (statement
-                (condition_statement))
-              (statement
-                (condition_statement))
               (statement
                 (condition_statement
                   (map
@@ -1729,16 +1541,8 @@ reduce_propagate_religion_requirements = {
                   (simple_value
                     (identifier)))))))
         (statement
-          (condition_statement))
-        (statement
-          (condition_statement))
-        (statement
           (condition_statement
             (map
-              (statement
-                (condition_statement))
-              (statement
-                (condition_statement))
               (statement
                 (condition_statement
                   (map
@@ -1753,16 +1557,8 @@ reduce_propagate_religion_requirements = {
                   (simple_value
                     (identifier)))))))
         (statement
-          (condition_statement))
-        (statement
-          (condition_statement))
-        (statement
           (condition_statement
             (map
-              (statement
-                (condition_statement))
-              (statement
-                (condition_statement))
               (statement
                 (condition_statement
                   (map
@@ -1777,16 +1573,8 @@ reduce_propagate_religion_requirements = {
                   (simple_value
                     (identifier)))))))
         (statement
-          (condition_statement))
-        (statement
-          (condition_statement))
-        (statement
           (condition_statement
             (map
-              (statement
-                (condition_statement))
-              (statement
-                (condition_statement))
               (statement
                 (condition_statement
                   (map
@@ -1801,16 +1589,8 @@ reduce_propagate_religion_requirements = {
                   (simple_value
                     (identifier)))))))
         (statement
-          (condition_statement))
-        (statement
-          (condition_statement))
-        (statement
           (condition_statement
             (map
-              (statement
-                (condition_statement))
-              (statement
-                (condition_statement))
               (statement
                 (condition_statement
                   (map
@@ -1829,16 +1609,8 @@ reduce_propagate_religion_requirements = {
       (identifier)
       (map
         (statement
-          (condition_statement))
-        (statement
-          (condition_statement))
-        (statement
           (condition_statement
             (map
-              (statement
-                (condition_statement))
-              (statement
-                (condition_statement))
               (statement
                 (condition_statement
                   (map
@@ -1868,16 +1640,8 @@ reduce_propagate_religion_requirements = {
       (identifier)
       (map
         (statement
-          (condition_statement))
-        (statement
-          (condition_statement))
-        (statement
           (condition_statement
             (map
-              (statement
-                (condition_statement))
-              (statement
-                (condition_statement))
               (statement
                 (condition_statement
                   (map
@@ -1912,10 +1676,6 @@ reduce_propagate_religion_requirements = {
               (identifier))
             (map
               (statement
-                (condition_statement))
-              (statement
-                (condition_statement))
-              (statement
                 (condition_statement
                   (map
                     (statement
@@ -1949,10 +1709,6 @@ reduce_propagate_religion_requirements = {
               (identifier))
             (map
               (statement
-                (condition_statement))
-              (statement
-                (condition_statement))
-              (statement
                 (condition_statement
                   (map
                     (statement
@@ -1981,16 +1737,8 @@ reduce_propagate_religion_requirements = {
       (identifier)
       (map
         (statement
-          (condition_statement))
-        (statement
-          (condition_statement))
-        (statement
           (condition_statement
             (map
-              (statement
-                (condition_statement))
-              (statement
-                (condition_statement))
               (statement
                 (condition_statement
                   (map
@@ -2022,16 +1770,8 @@ reduce_propagate_religion_requirements = {
       (identifier)
       (map
         (statement
-          (condition_statement))
-        (statement
-          (condition_statement))
-        (statement
           (condition_statement
             (map
-              (statement
-                (condition_statement))
-              (statement
-                (condition_statement))
               (statement
                 (condition_statement
                   (map
@@ -2052,16 +1792,8 @@ reduce_propagate_religion_requirements = {
                               (variable
                                 (identifier))))))))))
               (statement
-                (condition_statement))
-              (statement
-                (condition_statement))
-              (statement
                 (condition_statement
                   (map
-                    (statement
-                      (condition_statement))
-                    (statement
-                      (condition_statement))
                     (statement
                       (condition_statement
                         (map
@@ -2113,15 +1845,13 @@ reduce_propagate_religion_requirements = {
                     (statement
                       (assignment
                         (identifier)
-                        (variable_embedded_identifier
-                          (variable
-                            (identifier))
+                        (variable
                           (identifier))))
                     (statement
-                      (condition_statement))
-                    (statement
-                      (simple_value
-                        (string))))))))))))
+                      (assignment
+                        (identifier)
+                        (simple_value
+                          (string)))))))))))))
   (statement
     (assignment
       (identifier)
@@ -2151,30 +1881,20 @@ reduce_propagate_religion_requirements = {
                     (statement
                       (assignment
                         (identifier)
-                        (variable_embedded_identifier
-                          (variable
-                            (identifier))
+                        (variable
                           (identifier))))
                     (statement
-                      (condition_statement))
-                    (statement
-                      (simple_value
-                        (string))))))))))))
+                      (assignment
+                        (identifier)
+                        (simple_value
+                          (string)))))))))))))
   (statement
     (assignment
       (identifier)
       (map
         (statement
-          (condition_statement))
-        (statement
-          (condition_statement))
-        (statement
           (condition_statement
             (map
-              (statement
-                (condition_statement))
-              (statement
-                (condition_statement))
               (statement
                 (condition_statement
                   (map
@@ -2208,15 +1928,13 @@ reduce_propagate_religion_requirements = {
                           (statement
                             (assignment
                               (identifier)
-                              (variable_embedded_identifier
-                                (variable
-                                  (identifier))
+                              (variable
                                 (identifier))))
                           (statement
-                            (condition_statement))
-                          (statement
-                            (simple_value
-                              (string))))))))))))
+                            (assignment
+                              (identifier)
+                              (simple_value
+                                (string)))))))))))))
         (statement
           (assignment
             (identifier)
@@ -2250,16 +1968,8 @@ reduce_propagate_religion_requirements = {
       (identifier)
       (map
         (statement
-          (condition_statement))
-        (statement
-          (condition_statement))
-        (statement
           (condition_statement
             (map
-              (statement
-                (condition_statement))
-              (statement
-                (condition_statement))
               (statement
                 (condition_statement
                   (map
@@ -2269,16 +1979,8 @@ reduce_propagate_religion_requirements = {
                         (simple_value
                           (boolean)))))))
               (statement
-                (condition_statement))
-              (statement
-                (condition_statement))
-              (statement
                 (condition_statement
                   (map
-                    (statement
-                      (condition_statement))
-                    (statement
-                      (condition_statement))
                     (statement
                       (condition_statement
                         (map
@@ -2308,16 +2010,8 @@ reduce_propagate_religion_requirements = {
       (identifier)
       (map
         (statement
-          (condition_statement))
-        (statement
-          (condition_statement))
-        (statement
           (condition_statement
             (map
-              (statement
-                (condition_statement))
-              (statement
-                (condition_statement))
               (statement
                 (condition_statement
                   (map
@@ -2327,16 +2021,8 @@ reduce_propagate_religion_requirements = {
                         (simple_value
                           (boolean)))))))
               (statement
-                (condition_statement))
-              (statement
-                (condition_statement))
-              (statement
                 (condition_statement
                   (map
-                    (statement
-                      (condition_statement))
-                    (statement
-                      (condition_statement))
                     (statement
                       (condition_statement
                         (map
@@ -2356,10 +2042,6 @@ reduce_propagate_religion_requirements = {
                 (assignment
                   (identifier)
                   (map
-                    (statement
-                      (condition_statement))
-                    (statement
-                      (condition_statement))
                     (statement
                       (condition_statement
                         (map
@@ -2387,10 +2069,6 @@ reduce_propagate_religion_requirements = {
                 (assignment
                   (identifier)
                   (map
-                    (statement
-                      (condition_statement))
-                    (statement
-                      (condition_statement))
                     (statement
                       (condition_statement
                         (map
@@ -2424,12 +2102,8 @@ reduce_propagate_religion_requirements = {
   (comment)
   (comment)
   (statement
-    (simple_value
-      (identifier)))
-  (statement
-    (condition_statement))
-  (statement
-    (condition_statement
+    (assignment
+      (identifier)
       (map
         (statement
           (macro_map
@@ -2459,15 +2133,13 @@ reduce_propagate_religion_requirements = {
                         (statement
                           (assignment
                             (identifier)
-                            (variable_embedded_identifier
-                              (variable
-                                (identifier))
+                            (variable
                               (identifier))))
                         (statement
-                          (condition_statement))
-                        (statement
-                          (simple_value
-                            (string)))))))))))
+                          (assignment
+                            (identifier)
+                            (simple_value
+                              (string))))))))))))
         (statement
           (macro_map
             (identifier)
@@ -2496,51 +2168,41 @@ reduce_propagate_religion_requirements = {
                         (statement
                           (assignment
                             (identifier)
-                            (variable_embedded_identifier
-                              (variable
-                                (identifier))
+                            (variable
                               (identifier))))
                         (statement
-                          (condition_statement))
-                        (statement
-                          (simple_value
-                            (string))))))))))))))
+                          (assignment
+                            (identifier)
+                            (simple_value
+                              (string)))))))))))))))
   (comment)
   (statement
-    (simple_value
-      (identifier)))
-  (statement
-    (condition_statement))
-  (statement
-    (condition_statement
+    (assignment
+      (identifier)
       (map
         (statement
           (assignment
             (identifier)
-            (variable_embedded_identifier
-              (variable
-                (identifier))
+            (variable
               (identifier))))
         (statement
-          (condition_statement))
-        (statement
           (assignment
-            (variable_embedded_identifier
-              (variable
-                (identifier))
-              (identifier))
-            (variable_embedded_identifier
-              (variable
-                (identifier))
+            (identifier)
+            (variable
               (identifier))))
         (statement
-          (condition_statement))
+          (assignment
+            (identifier)
+            (variable
+              (identifier))))
         (statement
           (assignment
-            (variable_embedded_identifier
-              (variable
-                (identifier))
-              (identifier))
+            (identifier)
+            (variable
+              (identifier))))
+        (statement
+          (assignment
+            (identifier)
             (variable
               (identifier))))
         (comment))))
@@ -2549,16 +2211,8 @@ reduce_propagate_religion_requirements = {
       (identifier)
       (map
         (statement
-          (condition_statement))
-        (statement
-          (condition_statement))
-        (statement
           (condition_statement
             (map
-              (statement
-                (condition_statement))
-              (statement
-                (condition_statement))
               (statement
                 (condition_statement
                   (map
@@ -2571,16 +2225,8 @@ reduce_propagate_religion_requirements = {
                               (simple_value
                                 (identifier))))))))))
               (statement
-                (condition_statement))
-              (statement
-                (condition_statement))
-              (statement
                 (condition_statement
                   (map
-                    (statement
-                      (condition_statement))
-                    (statement
-                      (condition_statement))
                     (statement
                       (condition_statement
                         (map
@@ -2614,30 +2260,64 @@ reduce_propagate_religion_requirements = {
                                 (statement
                                   (assignment
                                     (identifier)
-                                    (variable_embedded_identifier
-                                      (variable
-                                        (identifier))
+                                    (variable
                                       (identifier))))
                                 (statement
-                                  (condition_statement))
-                                (statement
-                                  (simple_value
-                                    (string))))))))))))
+                                  (assignment
+                                    (identifier)
+                                    (simple_value
+                                      (string)))))))))))))
               (statement
                 (assignment
                   (identifier)
                   (map
                     (statement
-                      (condition_statement))
-                    (statement
-                      (condition_statement))
-                    (statement
                       (condition_statement
                         (map
                           (statement
-                            (condition_statement))
+                            (condition_statement
+                              (map
+                                (statement
+                                  (assignment
+                                    (identifier)
+                                    (simple_value
+                                      (boolean)))))))
                           (statement
-                            (condition_statement))
+                            (assignment
+                              (identifier)
+                              (map
+                                (statement
+                                  (assignment
+                                    (identifier)
+                                    (variable
+                                      (identifier)))))))
+                          (statement
+                            (assignment
+                              (identifier)
+                              (simple_value
+                                (identifier))))
+                          (statement
+                            (assignment
+                              (identifier)
+                              (map
+                                (statement
+                                  (assignment
+                                    (identifier)
+                                    (map
+                                      (statement
+                                        (assignment
+                                          (identifier)
+                                          (variable
+                                            (identifier))))
+                                      (statement
+                                        (assignment
+                                          (identifier)
+                                          (simple_value
+                                            (string)))))))))))))
+                    (statement
+                      (assignment
+                        (identifier)
+                        (map
                           (statement
                             (condition_statement
                               (map
@@ -2671,23 +2351,17 @@ reduce_propagate_religion_requirements = {
                                       (statement
                                         (assignment
                                           (identifier)
-                                          (variable_embedded_identifier
-                                            (variable
-                                              (identifier))
+                                          (variable
                                             (identifier))))
                                       (statement
-                                        (condition_statement))
-                                      (statement
-                                        (simple_value
-                                          (string))))))))))))
+                                        (assignment
+                                          (identifier)
+                                          (simple_value
+                                            (string)))))))))))))
                     (statement
                       (assignment
                         (identifier)
                         (map
-                          (statement
-                            (condition_statement))
-                          (statement
-                            (condition_statement))
                           (statement
                             (condition_statement
                               (map
@@ -2721,65 +2395,13 @@ reduce_propagate_religion_requirements = {
                                       (statement
                                         (assignment
                                           (identifier)
-                                          (variable_embedded_identifier
-                                            (variable
-                                              (identifier))
+                                          (variable
                                             (identifier))))
-                                      (statement
-                                        (condition_statement))
-                                      (statement
-                                        (simple_value
-                                          (string))))))))))))
-                    (statement
-                      (assignment
-                        (identifier)
-                        (map
-                          (statement
-                            (condition_statement))
-                          (statement
-                            (condition_statement))
-                          (statement
-                            (condition_statement
-                              (map
-                                (statement
-                                  (assignment
-                                    (identifier)
-                                    (simple_value
-                                      (boolean)))))))
-                          (statement
-                            (assignment
-                              (identifier)
-                              (map
-                                (statement
-                                  (assignment
-                                    (identifier)
-                                    (variable
-                                      (identifier)))))))
-                          (statement
-                            (assignment
-                              (identifier)
-                              (simple_value
-                                (identifier))))
-                          (statement
-                            (assignment
-                              (identifier)
-                              (map
-                                (statement
-                                  (assignment
-                                    (identifier)
-                                    (map
                                       (statement
                                         (assignment
                                           (identifier)
-                                          (variable_embedded_identifier
-                                            (variable
-                                              (identifier))
-                                            (identifier))))
-                                      (statement
-                                        (condition_statement))
-                                      (statement
-                                        (simple_value
-                                          (string))))))))))))
+                                          (simple_value
+                                            (string)))))))))))))
                     (statement
                       (assignment
                         (identifier)
@@ -2809,15 +2431,13 @@ reduce_propagate_religion_requirements = {
                                       (statement
                                         (assignment
                                           (identifier)
-                                          (variable_embedded_identifier
-                                            (variable
-                                              (identifier))
+                                          (variable
                                             (identifier))))
                                       (statement
-                                        (condition_statement))
-                                      (statement
-                                        (simple_value
-                                          (string)))))))))))))))))))))
+                                        (assignment
+                                          (identifier)
+                                          (simple_value
+                                            (string))))))))))))))))))))))
   (statement
     (assignment
       (identifier)
@@ -2918,27 +2538,18 @@ reduce_propagate_religion_requirements = {
               (identifier)
               (variable
                 (identifier)))
-            (variable_embedded_identifier
-              (identifier)
-              (variable
-                (identifier))
+            (simple_value
               (identifier))))
         (statement
-          (condition_statement))
-        (statement
-          (condition_statement
+          (assignment
+            (variable_embedded_identifier
+              (variable
+                (identifier))
+              (identifier))
             (map
-              (statement
-                (condition_statement))
-              (statement
-                (condition_statement))
               (statement
                 (condition_statement
                   (map
-                    (statement
-                      (condition_statement))
-                    (statement
-                      (condition_statement))
                     (statement
                       (condition_statement
                         (map
@@ -2966,16 +2577,8 @@ reduce_propagate_religion_requirements = {
       (identifier)
       (map
         (statement
-          (condition_statement))
-        (statement
-          (condition_statement))
-        (statement
           (condition_statement
             (map
-              (statement
-                (condition_statement))
-              (statement
-                (condition_statement))
               (statement
                 (condition_statement
                   (map
@@ -2999,24 +2602,12 @@ reduce_propagate_religion_requirements = {
                   (simple_value
                     (identifier))))))))))
   (statement
-    (simple_value
-      (identifier)))
-  (statement
-    (condition_statement))
-  (statement
-    (condition_statement
+    (assignment
+      (identifier)
       (map
-        (statement
-          (condition_statement))
-        (statement
-          (condition_statement))
         (statement
           (condition_statement
             (map
-              (statement
-                (condition_statement))
-              (statement
-                (condition_statement))
               (statement
                 (condition_statement
                   (map
